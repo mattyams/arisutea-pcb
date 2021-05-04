@@ -1,5 +1,5 @@
 # FR4 Plates for Arisutea
-アリステア FR4 PCB Plates design formatted ready for JLCPCB. Plate files are updated to reflect changes to the full backspace on switch 59. The plates are designed to fit with the full backspace and non-stepped capslock. That being said, these will not work on the original Fate Designs PCB.
+アリステア FR4 PCB Plates design formatted ready for JLCPCB. Plate files are updated to reflect changes to the full backspace on switch 59. The plates are designed to fit with the full backspace and non-stepped capslock. That being said, these will not work on the original Fate Designs PCB. No plans to create plates for the LED indicators on the v0.6+ PCBs. NOTE FOR v0.6.3+ PCBs! FR4 plates still will work but you will have to drill the holes out manually. If you take this route....go forth cautiously adventurer.
 
 ## Disclaimer: Use these files at your own risk. 
 

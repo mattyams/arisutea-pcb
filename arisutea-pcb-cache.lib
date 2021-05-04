@@ -253,6 +253,18 @@ X C C -150 0 50 R 0 0 1 1 O
 ENDDRAW
 ENDDEF
 #
+# arisutea-pcb-r1_LOGO
+#
+DEF arisutea-pcb-r1_LOGO LOGO 0 0 N N 1 F N
+F0 "LOGO" 0 -250 50 H V C CNN
+F1 "arisutea-pcb-r1_LOGO" 0 250 50 H V C CNN
+F2 "" 0 350 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+DRAW
+C 0 0 158 0 1 0 F
+ENDDRAW
+ENDDEF
+#
 # arisutea-pcb-r1_Switch_SW_Keeb
 #
 DEF arisutea-pcb-r1_Switch_SW_Keeb SW 0 0 N Y 1 F N
@@ -371,18 +383,6 @@ X D+ B6 600 -200 200 L 50 50 1 1 B
 X D- B7 600 0 200 L 50 50 1 1 B
 X SBU2 B8 600 -600 200 L 50 50 1 1 B
 X SHIELD S1 -300 -900 200 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# arisutea-pcb-r1_arisutea_logo
-#
-DEF arisutea-pcb-r1_arisutea_logo LOGO 0 0 N N 1 F N
-F0 "LOGO" 0 -250 50 H V C CNN
-F1 "arisutea-pcb-r1_arisutea_logo" 0 250 50 H V C CNN
-F2 "" 0 350 50 H I C CNN
-F3 "" 0 350 50 H I C CNN
-DRAW
-C 0 0 158 0 1 0 F
 ENDDRAW
 ENDDEF
 #

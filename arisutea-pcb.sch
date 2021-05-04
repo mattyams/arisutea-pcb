@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "Arisutea Keyboard"
-Date "2021-03-27"
-Rev "0.6"
+Date "2021-05-04"
+Rev "0.6.2"
 Comp "3x6 Design"
 Comment1 ""
 Comment2 ""
@@ -901,7 +901,7 @@ U 1 1 5C583EFC
 P 9800 2900
 F 0 "H1" H 9900 2946 50  0000 L CNN
 F 1 "ThroughHole" H 9900 2855 50  0000 L CNN
-F 2 "arisutea:Plated_Through_Hole_M2" H 9800 2900 50  0001 C CNN
+F 2 "arisutea:Generic-Mounthole" H 9800 2900 50  0001 C CNN
 F 3 "~" H 9800 2900 50  0001 C CNN
 	1    9800 2900
 	1    0    0    -1  
@@ -912,7 +912,7 @@ U 1 1 5C584371
 P 9800 3100
 F 0 "H2" H 9900 3146 50  0000 L CNN
 F 1 "ThroughHole" H 9900 3055 50  0000 L CNN
-F 2 "arisutea:Plated_Through_Hole_M2" H 9800 3100 50  0001 C CNN
+F 2 "arisutea:Generic-Mounthole" H 9800 3100 50  0001 C CNN
 F 3 "~" H 9800 3100 50  0001 C CNN
 	1    9800 3100
 	1    0    0    -1  
@@ -923,7 +923,7 @@ U 1 1 5C59C18D
 P 9800 3300
 F 0 "H3" H 9900 3346 50  0000 L CNN
 F 1 "ThroughHole" H 9900 3255 50  0000 L CNN
-F 2 "arisutea:Plated_Through_Hole_M2" H 9800 3300 50  0001 C CNN
+F 2 "arisutea:Generic-Mounthole" H 9800 3300 50  0001 C CNN
 F 3 "~" H 9800 3300 50  0001 C CNN
 	1    9800 3300
 	1    0    0    -1  
@@ -934,7 +934,7 @@ U 1 1 5C59C1E9
 P 9800 3500
 F 0 "H4" H 9900 3546 50  0000 L CNN
 F 1 "ThroughHole" H 9900 3455 50  0000 L CNN
-F 2 "arisutea:Plated_Through_Hole_M2" H 9800 3500 50  0001 C CNN
+F 2 "arisutea:Generic-Mounthole" H 9800 3500 50  0001 C CNN
 F 3 "~" H 9800 3500 50  0001 C CNN
 	1    9800 3500
 	1    0    0    -1  
@@ -945,7 +945,7 @@ U 1 1 5C59C249
 P 9800 3700
 F 0 "H5" H 9900 3746 50  0000 L CNN
 F 1 "ThroughHole" H 9900 3655 50  0000 L CNN
-F 2 "arisutea:Plated_Through_Hole_M2" H 9800 3700 50  0001 C CNN
+F 2 "arisutea:Generic-Mounthole" H 9800 3700 50  0001 C CNN
 F 3 "~" H 9800 3700 50  0001 C CNN
 	1    9800 3700
 	1    0    0    -1  
@@ -956,7 +956,7 @@ U 1 1 5C59C2A7
 P 9800 3900
 F 0 "H6" H 9900 3946 50  0000 L CNN
 F 1 "ThroughHole" H 9900 3855 50  0000 L CNN
-F 2 "arisutea:Plated_Through_Hole_M2" H 9800 3900 50  0001 C CNN
+F 2 "arisutea:Generic-Mounthole" H 9800 3900 50  0001 C CNN
 F 3 "~" H 9800 3900 50  0001 C CNN
 	1    9800 3900
 	1    0    0    -1  
@@ -967,7 +967,7 @@ U 1 1 5C59C305
 P 9800 4100
 F 0 "H7" H 9900 4146 50  0000 L CNN
 F 1 "ThroughHole" H 9900 4055 50  0000 L CNN
-F 2 "arisutea:Plated_Through_Hole_M2" H 9800 4100 50  0001 C CNN
+F 2 "arisutea:Generic-Mounthole" H 9800 4100 50  0001 C CNN
 F 3 "~" H 9800 4100 50  0001 C CNN
 	1    9800 4100
 	1    0    0    -1  
@@ -978,7 +978,7 @@ U 1 1 5C59C367
 P 9800 4300
 F 0 "H8" H 9900 4346 50  0000 L CNN
 F 1 "ThroughHole" H 9900 4255 50  0000 L CNN
-F 2 "arisutea:Plated_Through_Hole_M2" H 9800 4300 50  0001 C CNN
+F 2 "arisutea:Generic-Mounthole" H 9800 4300 50  0001 C CNN
 F 3 "~" H 9800 4300 50  0001 C CNN
 	1    9800 4300
 	1    0    0    -1  
@@ -1181,7 +1181,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 5250 1750 6600
 $Comp
-L arisutea-pcb-r1:arisutea_logo LOGO1
+L arisutea-pcb-r1:LOGO LOGO1
 U 1 1 6042E29E
 P 8700 6100
 F 0 "LOGO1" H 8700 6300 50  0000 C CNN
@@ -1323,7 +1323,7 @@ F 3 "~" H 3350 900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L arisutea-pcb-r1:arisutea_logo LOGO2
+L arisutea-pcb-r1:LOGO LOGO2
 U 1 1 605B7585
 P 9050 6100
 F 0 "LOGO2" H 9050 6300 50  0000 C CNN
@@ -1580,45 +1580,45 @@ NUM_L
 Text GLabel 8700 950  0    50   Input ~ 0
 FN_L
 $Comp
-L arisutea-pcb-r1:arisutea_logo LOGO3
+L arisutea-pcb-r1:LOGO LOGO3
 U 1 1 6062F214
 P 9400 6100
 F 0 "LOGO3" H 9400 6300 50  0000 C CNN
-F 1 "arisutea_logo" H 9475 6474 50  0001 C CNN
-F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 9400 6450 50  0001 C CNN
+F 1 "QMK Logo" H 9475 6474 50  0001 C CNN
+F 2 "arisutea:OSHW-Logo_11.4x12mm_SilkScreen" H 9400 6450 50  0001 C CNN
 F 3 "" H 9400 6450 50  0001 C CNN
 	1    9400 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L arisutea-pcb-r1:arisutea_logo LOGO4
+L arisutea-pcb-r1:LOGO LOGO4
 U 1 1 6062F624
 P 9750 6100
 F 0 "LOGO4" H 9750 6300 50  0000 C CNN
-F 1 "arisutea_logo" H 9825 6474 50  0001 C CNN
-F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 9750 6450 50  0001 C CNN
+F 1 "QMK Logo" H 9825 6474 50  0001 C CNN
+F 2 "arisutea:OSHW-Logo_11.4x12mm_SilkScreen" H 9750 6450 50  0001 C CNN
 F 3 "" H 9750 6450 50  0001 C CNN
 	1    9750 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L arisutea-pcb-r1:arisutea_logo LOGO5
+L arisutea-pcb-r1:LOGO LOGO5
 U 1 1 6063AB78
 P 10100 6100
 F 0 "LOGO5" H 10100 6300 50  0000 C CNN
 F 1 "QMK_Logo_Light" H 10175 6474 50  0001 C CNN
-F 2 "3x6_graphics:QMK_Logo_Light" H 10100 6450 50  0001 C CNN
+F 2 "arisutea:QMK_Logo_Light" H 10100 6450 50  0001 C CNN
 F 3 "" H 10100 6450 50  0001 C CNN
 	1    10100 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L arisutea-pcb-r1:arisutea_logo LOGO6
+L arisutea-pcb-r1:LOGO LOGO6
 U 1 1 6063AEC9
 P 10450 6100
 F 0 "LOGO6" H 10450 6300 50  0000 C CNN
 F 1 "QMK_Logo_Light" H 10525 6474 50  0001 C CNN
-F 2 "3x6_graphics:QMK_Logo_Light" H 10450 6450 50  0001 C CNN
+F 2 "arisutea:QMK_Logo_Light" H 10450 6450 50  0001 C CNN
 F 3 "" H 10450 6450 50  0001 C CNN
 	1    10450 6100
 	1    0    0    -1  

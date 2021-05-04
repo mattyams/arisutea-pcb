@@ -1,9 +1,9 @@
 # Acrylic Case for Arisutea
-アリステア Acrylic Case design formatted ready for Ponoko with the kerf of the switch cutout set to 0.15mm. Case files are updated to reflect changes to the full backspace on switch 59 and have the Arisutea logo engraved on the case. The I ordered with these changes just came in this week (3/6/2021) and it works very well with the changes I made to the full backspace and addition of the stablizer on the prototypes designed by CorruptedJef and robotictomato. There are 2 versions of the low profile case. One is just the normal lopro case and the other is if you opt to use matte colors from Ponoko as only one side of the acrylic is matte. This flips the bottom of the case and the long "step up" pieces on the vertical axis so that the actual bottom of the case will be matte as well when assembling the case. 
+アリステア Acrylic Case design formatted ready for Ponoko with the kerf of the switch cutout set to 0.15mm. Case files are updated to reflect changes to the full backspace on switch 59 and have the Arisutea logo engraved on the case. Removed the matte file and adjust the normal so you can use it for either one.
 
-There is now a "boxed" version of the case that I have made that is designed to work with some wrist rests that do not have the ortho shape. I have not tested this design yet but the prototype should be here this coming week (3/29/2021). 
+A "boxed" version of the case that I have made is designed to work with some wrist rests that do not have the ortho shape. 
 
-There are now case files for vv0.6 that include the indicator LEDs, I have not ordered/tested these but will soon.
+There are now case files for v0.6 PCB that include the indicator LEDs, I have not ordered/tested these but will soon.
 
 These files are a fork from FateNozomi's Arisu case which can be found [HERE](https://github.com/FateNozomi/arisu-case)
 
@@ -14,26 +14,27 @@ These files are a fork from FateNozomi's Arisu case which can be found [HERE](ht
 ![Ponoko-case-3](https://imgur.com/IXYp1Ry.jpg)
 ![Ponoko-case-4](https://imgur.com/iDQcOTm.jpg)
 
-## Case Pieces for Angled Case
+## Case Pieces for Angled Case!
 
 - Low Profile Angled Case (arisutea_lopro_case_P2_ponoko.eps)
-- Low Profile Angled Case Matte Colors (Optional) (arisutea_lopro_case_P2_ponoko_matte.eps)
 - High Profile Angled Layer (Optional) (arisutea_hipro_layer_P2_ponoko.eps)
 
-## Case Pieces for Boxed Case - PROTOTYPE!
+## Case Pieces for Boxed Case!
 
 - Low Profile Boxed Case (arisutea_lopro_case_P2_boxed_ponoko.eps)
-- Low Profile Boxed Case Matte Colors (Optional) (arisutea_lopro_case_P2_boxed_matte_ponoko.eps)
 - High Profile Boxed Layer (Optional) (arisutea_hipro_layer_P2_boxed_ponoko.eps)
 
 ![Boxed-case-proto-1](https://imgur.com/wiqrpjo.jpg)
 ![Boxed-case-proto-2](https://imgur.com/FafR5e6.jpg)
 
-## Case Pieces for v0.6 Angled Case with LED indicator cutouts - PROTOTYPE!
-
+## Case Pieces for v0.6 with LED indicator cutouts - PROTOTYPE!
+#### Case Pieces for Boxed Case!
 - Low Profile Angled Case with LED cutouts (arisutea_lopro_case_indicators_P2_ponoko.eps)
-- Low Profile Angled Case Matte Colors with LED cutouts (Optional) (arisutea_lopro_case_indicators_P2_ponoko_matte.eps)
 - High Profile Angled Layer with LED cutouts (Optional) (arisutea_hipro_layer_indicators_P2_ponoko.eps)
+
+#### Case Pieces for Boxed Case!
+- Low Profile Boxed Case with LED cutouts (arisutea_lopro_case_P2_boxed_indicators_ponoko.eps)
+- High Profile Boxed Layer with LED cutouts (Optional) (arisutea_hipro_layer_P2_boxed_indicators_ponoko.eps)
 
 ## Fabrication
 

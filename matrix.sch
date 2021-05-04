@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title "Arisutea Keyboard"
-Date "2021-03-27"
-Rev "0.6"
+Date "2021-05-04"
+Rev "0.6.2"
 Comp "3x6 Design"
 Comment1 ""
 Comment2 ""
