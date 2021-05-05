@@ -38,11 +38,13 @@ v0.6+
 ![Arisutea-v0.6](https://imgur.com/pfPOXME.jpg)
 ![Arisutea-v0.6-back](https://imgur.com/P1S1BPK.jpg)
 
-Just messing around with different switches.
-![Arisutea-switches](https://i.imgur.com/Znw3HWQ.jpg)
-
-The family, so far....
+Just some recent builds...
 ![Arisutea-builds](https://i.imgur.com/b8SRfIZ.jpg)
+![Arisutea-builds](https://imgur.com/l5U7c6h.jpg)
+![Arisutea-builds](https://imgur.com/72nEaqH.jpg)
+
+Messing around with different switches.
+![Arisutea-switches](https://i.imgur.com/Znw3HWQ.jpg)
 
 # QMK Firmware
 This can be located in the [firmware](https://github.com/mattyams/arisutea-pcb/tree/master/firmware) folder. 
