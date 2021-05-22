@@ -1,24 +1,10 @@
-# THIS IS STILL A WIP! NO GUARANTEES ON ANYTHING!
-- [x] Acrylic Case assembled and tested on original design 03/06/21
-- [x] v0.4 PCBs ordered 03/07/21
-- [x] Second Acrylic Case ordered 03/07/21
-- [X] Assemble FR4 Case to original design 03/14/21
-- [X] Assemble Arisutea PCB once received 03/16/21
-- [X] Assemble Acrylic Case to Arisutea design 03/27/21
-- [X] Assemble FR4 Case to Arisutea design 03/27/21
-- [X] v0.6 PCBs ordered 03/27/21
-- [X] Assemble Arisutea v0.6 PCB once received 04/12/21
-- [X] Edit QMK firmware for Arisutea design 03/29/21
-- [ ] Third Acrylic Case ordered for LED Indicators
-- [ ] Assemble 'New' Acrylic Case to Arisutea v0.6+ design
-
 # Arisutea - Arisu Keyboard PCB with More Modifications...now with MORE!
 ## Disclaimer: Use these files at your own risk.
 アリステア PCB designed using KiCad. The layout was originally created by FateNozomi, inspired by Lyn's EM7 and TGR Alice with some modification. The layout was then modified by CorruptedJef and robotictomato to add USB-C, ESD and to shift/add some keys. This inspired me to modify the layout further by adding the ability to swap your switches out whenever you want and to make some keys a little more permenant. I have designed many boards in the past but never a keyboard so this is my first crack at it and I figured why not go all out? If you notice any issue please open an issue and we can discuss!
 
 Since the layout has been modified yet again I decided to give the project a new name, Arisutea, which translates to Alistair. Obviously keeping the theme running here. 
 
-Check out the iBOM [here](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/hardware/BOM/arisutea-rev06-ibom.html)! This was generated with [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom)!
+Check out the iBOM [here](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/hardware/BOM/arisutea-rev1.0-ibom.html)! This was generated with [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom)!
 
 Key modifications to the PCB:
 - Added in Kailh Hotswap sockets.

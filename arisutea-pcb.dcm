@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Device_C_Small
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP Device_D_Small
+D Diode, small symbol
+K diode
+F ~
+$ENDCMP
+#
 $CMP Switch_SW_Keeb
 D Push button switch, generic, two pins
 K switch normally-open pushbutton push-button

@@ -1,1636 +1,1655 @@
 EESchema Schematic File Version 4
-LIBS:arisutea-pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "Arisutea Keyboard"
-Date "2021-05-04"
-Rev "0.6.2"
-Comp "3x6 Design"
+Date "2021-05-22"
+Rev "1.0"
+Comp "mattyams"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 1530 4520
+Connection ~ 1530 4770
+Connection ~ 1760 1750
+Connection ~ 1810 1450
+Connection ~ 1810 2250
+Connection ~ 1830 4770
+Connection ~ 1830 5120
+Connection ~ 2230 6920
+Connection ~ 2630 3620
+Connection ~ 2630 6920
+Connection ~ 2630 7220
+Connection ~ 2830 1100
+Connection ~ 2830 2100
+Connection ~ 2880 7220
+Connection ~ 3130 3620
+Connection ~ 3630 3170
+Connection ~ 4880 3170
+Connection ~ 5190 1510
+Connection ~ 6800 1560
+Connection ~ 7150 1810
+Connection ~ 7150 1860
+Connection ~ 7500 1560
+NoConn ~ 1700 1250
+NoConn ~ 1700 1850
+NoConn ~ 5480 4520
+Wire Wire Line
+	1480 4520 1530 4520
+Wire Wire Line
+	1530 4520 1530 4770
+Wire Wire Line
+	1530 4520 2280 4520
+Wire Wire Line
+	1530 4770 1530 5120
+Wire Wire Line
+	1530 4770 1580 4770
+Wire Wire Line
+	1530 5120 1580 5120
+Wire Wire Line
+	1700 1050 1810 1050
+Wire Wire Line
+	1700 1150 1810 1150
+Wire Wire Line
+	1700 1350 1810 1350
+Wire Wire Line
+	1700 1650 1810 1650
+Wire Wire Line
+	1700 1750 1760 1750
+Wire Wire Line
+	1700 1950 1810 1950
+Wire Wire Line
+	1700 2050 1810 2050
+Wire Wire Line
+	1700 2150 1810 2150
+Wire Wire Line
+	1700 2250 1810 2250
+Wire Wire Line
+	1760 1550 1700 1550
+Wire Wire Line
+	1760 1750 1760 1550
+Wire Wire Line
+	1810 1450 1700 1450
+Wire Wire Line
+	1810 1650 1810 1450
+Wire Wire Line
+	1810 2150 1810 2250
+Wire Wire Line
+	1810 2250 1810 2300
+Wire Wire Line
+	1830 4770 1780 4770
+Wire Wire Line
+	1830 4770 1830 5120
+Wire Wire Line
+	1830 4770 2280 4770
+Wire Wire Line
+	1830 5120 1780 5120
+Wire Wire Line
+	1830 5120 1830 5370
+Wire Wire Line
+	2110 1350 2210 1350
+Wire Wire Line
+	2110 1950 2210 1950
+Wire Wire Line
+	2130 6920 2230 6920
+Wire Wire Line
+	2150 1600 2230 1600
+Wire Wire Line
+	2230 4020 2280 4020
+Wire Wire Line
+	2230 4270 2280 4270
+Wire Wire Line
+	2230 5020 2280 5020
+Wire Wire Line
+	2230 5270 2280 5270
+Wire Wire Line
+	2230 5520 2280 5520
+Wire Wire Line
+	2230 5770 2280 5770
+Wire Wire Line
+	2230 6020 2280 6020
+Wire Wire Line
+	2230 6270 2280 6270
+Wire Wire Line
+	2230 6520 2280 6520
+Wire Wire Line
+	2230 6920 2630 6920
+Wire Wire Line
+	2230 6970 2230 6920
+Wire Wire Line
+	2230 7220 2230 7170
+Wire Wire Line
+	2230 7220 2630 7220
+Wire Wire Line
+	2390 1100 2390 1450
+Wire Wire Line
+	2390 1450 1810 1450
+Wire Wire Line
+	2390 1750 1760 1750
+Wire Wire Line
+	2390 2100 2390 1750
+Wire Wire Line
+	2530 3570 2530 3620
+Wire Wire Line
+	2530 3620 2630 3620
+Wire Wire Line
+	2630 1100 2390 1100
+Wire Wire Line
+	2630 2100 2390 2100
+Wire Wire Line
+	2630 3570 2630 3620
+Wire Wire Line
+	2630 3620 2630 3670
+Wire Wire Line
+	2630 6870 2630 6920
+Wire Wire Line
+	2630 6970 2630 6920
+Wire Wire Line
+	2630 7220 2630 7170
+Wire Wire Line
+	2630 7220 2880 7220
+Wire Wire Line
+	2830 920  2830 1100
+Wire Wire Line
+	2830 920  2920 920 
+Wire Wire Line
+	2830 1100 3020 1100
+Wire Wire Line
+	2830 2100 2830 2280
+Wire Wire Line
+	2830 2100 3020 2100
+Wire Wire Line
+	2830 2280 2920 2280
+Wire Wire Line
+	2880 3570 2880 3670
+Wire Wire Line
+	2880 6870 2880 7220
+Wire Wire Line
+	2880 7220 2880 7270
+Wire Wire Line
+	3030 3570 3030 3620
+Wire Wire Line
+	3030 3620 3130 3620
+Wire Wire Line
+	3130 3570 3130 3620
+Wire Wire Line
+	3130 3620 3130 3670
+Wire Wire Line
+	3130 6870 3130 6920
+Wire Wire Line
+	3230 1600 3330 1600
+Wire Wire Line
+	3280 3170 3380 3170
+Wire Wire Line
+	3320 1100 3430 1100
+Wire Wire Line
+	3320 2100 3430 2100
+Wire Wire Line
+	3380 3570 3380 3670
+Wire Wire Line
+	3380 6870 3380 6920
+Wire Wire Line
+	3580 3170 3630 3170
+Wire Wire Line
+	3630 3070 3630 3170
+Wire Wire Line
+	3630 3170 3630 3670
+Wire Wire Line
+	3630 6870 3630 6920
+Wire Wire Line
+	3880 3170 3880 3370
+Wire Wire Line
+	3880 3570 3880 3670
+Wire Wire Line
+	3880 6870 3880 6920
+Wire Wire Line
+	4130 3570 4130 3670
+Wire Wire Line
+	4130 6870 4130 6920
+Wire Wire Line
+	4380 3570 4380 3670
+Wire Wire Line
+	4380 6870 4380 6920
+Wire Wire Line
+	4430 3170 4630 3170
+Wire Wire Line
+	4590 1510 4590 1560
+Wire Wire Line
+	4630 3570 4630 3670
+Wire Wire Line
+	4630 6870 4630 6920
+Wire Wire Line
+	4640 1510 4590 1510
+Wire Wire Line
+	4830 3170 4880 3170
+Wire Wire Line
+	4880 3070 4880 3170
+Wire Wire Line
+	4880 3170 4880 3670
+Wire Wire Line
+	4880 6870 4880 6920
+Wire Wire Line
+	5030 2320 4830 2320
+Wire Wire Line
+	5040 1510 5190 1510
+Wire Wire Line
+	5130 3570 5130 3670
+Wire Wire Line
+	5130 6870 5130 6920
+Wire Wire Line
+	5130 7270 5130 7220
+Wire Wire Line
+	5190 1460 5190 1510
+Wire Wire Line
+	5190 1510 5340 1510
+Wire Wire Line
+	5230 2320 5430 2320
+Wire Wire Line
+	5480 4020 5530 4020
+Wire Wire Line
+	5480 4270 5530 4270
+Wire Wire Line
+	5480 4770 5530 4770
+Wire Wire Line
+	5480 5020 5530 5020
+Wire Wire Line
+	5480 5270 5530 5270
+Wire Wire Line
+	5480 5520 5530 5520
+Wire Wire Line
+	5480 5770 5530 5770
+Wire Wire Line
+	5480 6020 5530 6020
+Wire Wire Line
+	5480 6270 5530 6270
+Wire Wire Line
+	5480 6520 5530 6520
+Wire Wire Line
+	6800 1560 6800 1360
+Wire Wire Line
+	6800 1560 6800 1610
+Wire Wire Line
+	6800 1560 7000 1560
+Wire Wire Line
+	6800 1810 6800 1860
+Wire Wire Line
+	6800 1860 7150 1860
+Wire Wire Line
+	6950 1360 6950 1810
+Wire Wire Line
+	6950 1810 7150 1810
+Wire Wire Line
+	7150 1360 6950 1360
+Wire Wire Line
+	7150 1810 7150 1760
+Wire Wire Line
+	7150 1860 7150 1810
+Wire Wire Line
+	7150 1960 7150 1860
+Wire Wire Line
+	7300 1560 7500 1560
+Wire Wire Line
+	7470 5210 7530 5210
+Wire Wire Line
+	7470 5710 7530 5710
+Wire Wire Line
+	7470 6210 7530 6210
+Wire Wire Line
+	7500 1560 7500 1360
+Wire Wire Line
+	7500 1560 7500 1610
+Wire Wire Line
+	7500 1810 7500 1860
+Wire Wire Line
+	7500 1860 7150 1860
+Wire Wire Line
+	7565 3325 7765 3325
+Wire Wire Line
+	7565 3425 7765 3425
+Wire Wire Line
+	7565 3525 7765 3525
+Wire Wire Line
+	7565 3825 7765 3825
+Wire Wire Line
+	7565 3925 7765 3925
+Wire Wire Line
+	7565 4025 7765 4025
+Wire Wire Line
+	7565 4375 7765 4375
+Wire Wire Line
+	7565 4475 7765 4475
+Wire Wire Line
+	7565 4575 7765 4575
+Wire Wire Line
+	7830 5210 7880 5210
+Wire Wire Line
+	7830 5710 7880 5710
+Wire Wire Line
+	7830 6210 7880 6210
+Wire Wire Line
+	8180 5210 8370 5210
+Wire Wire Line
+	8180 5710 8370 5710
+Wire Wire Line
+	8180 6210 8370 6210
+Wire Wire Line
+	8760 1350 8910 1350
+Wire Wire Line
+	8760 1500 8910 1500
+Wire Wire Line
+	8760 1650 8910 1650
+Wire Wire Line
+	8760 1800 8910 1800
+Wire Wire Line
+	9110 3400 9160 3400
+Wire Wire Line
+	9110 3500 9160 3500
+Wire Wire Line
+	9110 3600 9160 3600
+Wire Wire Line
+	9110 3800 9160 3800
+Wire Wire Line
+	9110 3900 9160 3900
+Wire Wire Line
+	9110 4000 9160 4000
+Wire Wire Line
+	9110 4100 9160 4100
+Wire Wire Line
+	9110 4200 9160 4200
+Wire Wire Line
+	9110 4300 9160 4300
+Wire Wire Line
+	9110 4400 9160 4400
+Wire Wire Line
+	9110 4500 9160 4500
+Wire Wire Line
+	9110 4600 9160 4600
+Wire Wire Line
+	9110 4700 9160 4700
+Wire Wire Line
+	9110 4800 9160 4800
+Wire Wire Line
+	9110 4900 9160 4900
+Wire Wire Line
+	9110 5000 9160 5000
+Wire Wire Line
+	9110 5100 9160 5100
+Wire Wire Line
+	9110 5200 9160 5200
+Wire Wire Line
+	9160 3200 9110 3200
+Wire Wire Line
+	9160 3300 9110 3300
+Wire Wire Line
+	9850 1220 10200 1220
+Wire Wire Line
+	9850 1370 10200 1370
+Wire Wire Line
+	9850 1520 10200 1520
+Wire Wire Line
+	9850 1670 10200 1670
+Wire Wire Line
+	9850 1820 10200 1820
+Wire Wire Line
+	9850 1970 10200 1970
+Wire Notes Line
+	4100 480  4100 2560
+Wire Notes Line
+	6160 480  6160 2570
+Wire Notes Line
+	6970 6530 6970 2560
+Wire Notes Line
+	8080 480  8080 2560
+Wire Notes Line
+	8590 2580 8590 6540
+Wire Notes Line
+	10190 2560 10190 5640
+Text Notes 2220 2930 2    100  Italic 20
+ATMEGA32U4 MCU
+Text Notes 3710 760  2    100  Italic 20
+USB-C Connection & ESD Protection
+Text Notes 5950 760  2    100  Italic 20
+Reset Switch & Fuse
+Text Notes 7820 750  2    100  Italic 20
+Crystal Oscillator
+Text Notes 10900 750  2    100  Italic 20
+USB & Programming Headers
+Text GLabel 2230 4020 0    50   Input ~ 0
+col9
+Text GLabel 2230 4270 0    50   Input ~ 0
+RESET
+Text GLabel 2230 5020 0    50   Input ~ 0
+XTAL2
+Text GLabel 2230 5270 0    50   Input ~ 0
+XTAL1
+Text GLabel 2230 5520 0    50   Input ~ 0
+row0
+Text GLabel 2230 5770 0    50   Input ~ 0
+row1
+Text GLabel 2230 6020 0    50   Input ~ 0
+row2
+Text GLabel 2230 6270 0    50   Input ~ 0
+row3
+Text GLabel 2230 6520 0    50   Input ~ 0
+row4
+Text GLabel 2530 3570 1    50   Input ~ 0
+MISO
+Text GLabel 2630 3570 1    50   Input ~ 0
+col14
+Text GLabel 2880 3570 1    50   Input ~ 0
+MOSI
+Text GLabel 2920 920  2    35   Input ~ 0
+USB+
+Text GLabel 2920 2280 2    35   Input ~ 0
+USB-
+Text GLabel 3030 3570 1    50   Input ~ 0
+SCLK
+Text GLabel 3130 3570 1    50   Input ~ 0
+col7
+Text GLabel 3130 6920 3    50   Input ~ 0
+col6
+Text GLabel 3380 3570 1    50   Input ~ 0
+col8
+Text GLabel 3380 6920 3    50   Input ~ 0
+col13
+Text GLabel 3430 1100 2    50   Input ~ 0
+D-
+Text GLabel 3430 2100 2    50   Input ~ 0
+D+
+Text GLabel 3630 6920 3    50   Input ~ 0
+col12
+Text GLabel 3880 6920 3    50   Input ~ 0
+col11
+Text GLabel 4130 6920 3    50   Input ~ 0
+col10
+Text GLabel 4380 3570 1    50   Input ~ 0
+D+
+Text GLabel 4380 6920 3    50   Input ~ 0
+col5
+Text GLabel 4630 3570 1    50   Input ~ 0
+D-
+Text GLabel 4630 6920 3    50   Input ~ 0
+col4
+Text GLabel 4880 6920 3    50   Input ~ 0
+col3
+Text GLabel 5130 3570 1    50   Input ~ 0
+col2
+Text GLabel 5340 1510 2    50   Input ~ 0
+RESET
+Text GLabel 5530 4770 2    50   Input ~ 0
+col0
+Text GLabel 5530 5020 2    50   Input ~ 0
+col1
+Text GLabel 5530 5270 2    50   Input ~ 0
+FN_L
+Text GLabel 5530 5520 2    50   Input ~ 0
+CAPS_L
+Text GLabel 5530 5770 2    50   Input ~ 0
+NUM_L
+Text GLabel 5530 6020 2    50   Input ~ 0
+RGB
+Text GLabel 6800 1360 1    50   Input ~ 0
+XTAL1
+Text GLabel 7470 5210 0    50   Input ~ 0
+FN_L
+Text GLabel 7470 5710 0    50   Input ~ 0
+CAPS_L
+Text GLabel 7470 6210 0    50   Input ~ 0
+NUM_L
+Text GLabel 7500 1360 1    50   Input ~ 0
+XTAL2
+Text GLabel 7565 3425 0    50   Input ~ 0
+RGB
+Text GLabel 7565 3825 0    50   Input ~ 0
+RGB_5V
+Text GLabel 7565 3925 0    50   Input ~ 0
+RGB_A
+Text GLabel 7565 4375 0    50   Input ~ 0
+RGB_5V
+Text GLabel 7565 4475 0    50   Input ~ 0
+RGB_A
+Text GLabel 8760 1500 0    50   Input ~ 0
+USB+
+Text GLabel 8760 1650 0    50   Input ~ 0
+USB-
+Text GLabel 9110 3200 0    50   Input ~ 0
+row0
+Text GLabel 9110 3300 0    50   Input ~ 0
+row1
+Text GLabel 9110 3400 0    50   Input ~ 0
+row2
+Text GLabel 9110 3500 0    50   Input ~ 0
+row3
+Text GLabel 9110 3600 0    50   Input ~ 0
+row4
+Text GLabel 9110 3800 0    50   Input ~ 0
+col0
+Text GLabel 9110 3900 0    50   Input ~ 0
+col1
+Text GLabel 9110 4000 0    50   Input ~ 0
+col2
+Text GLabel 9110 4100 0    50   Input ~ 0
+col3
+Text GLabel 9110 4200 0    50   Input ~ 0
+col4
+Text GLabel 9110 4300 0    50   Input ~ 0
+col5
+Text GLabel 9110 4400 0    50   Input ~ 0
+col6
+Text GLabel 9110 4500 0    50   Input ~ 0
+col7
+Text GLabel 9110 4600 0    50   Input ~ 0
+col8
+Text GLabel 9110 4700 0    50   Input ~ 0
+col9
+Text GLabel 9110 4800 0    50   Input ~ 0
+col10
+Text GLabel 9110 4900 0    50   Input ~ 0
+col11
+Text GLabel 9110 5000 0    50   Input ~ 0
+col12
+Text GLabel 9110 5100 0    50   Input ~ 0
+col13
+Text GLabel 9110 5200 0    50   Input ~ 0
+col14
+Text GLabel 10200 1220 2    50   Input ~ 0
+MISO
+Text GLabel 10200 1520 2    50   Input ~ 0
+SCLK
+Text GLabel 10200 1670 2    50   Input ~ 0
+MOSI
+Text GLabel 10200 1820 2    50   Input ~ 0
+RESET
 $Comp
-L arisutea-pcb-r1:ATmega32U4-AU-MCU_Microchip_ATmega U2
-U 1 1 5C4B1F82
-P 4950 4250
-F 0 "U2" H 5350 2400 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 5350 2500 50  0000 C CNN
-F 2 "arisutea:TQFP-44_10x10mm_P0.8mm" H 4950 4250 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 4950 4250 50  0001 C CNN
-F 4 "C44854" H 4950 4250 50  0001 C CNN "LCSC"
-	1    4950 4250
-	1    0    0    -1  
+L power:+5V #PWR0117
+U 1 1 5C4F181F
+P 1480 4520
+F 0 "#PWR0117" H 1480 4370 50  0001 C CNN
+F 1 "+5V" V 1481 4733 50  0000 C CNN
+F 2 "" H 1480 4520 50  0001 C CNN
+F 3 "" H 1480 4520 50  0001 C CNN
+	1    1480 4520
+	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:USBLC6-2SC6-Power_Protection U1
-U 1 1 5C4B2347
-P 2500 5600
-F 0 "U1" V 3050 5600 50  0000 C CNN
-F 1 "USBLC6-2SC6" V 3150 5600 50  0000 C CNN
-F 2 "arisutea:SOT-23-6_Handsoldering" H 1750 6000 50  0001 C CNN
-F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 2700 5950 50  0001 C CNN
-F 4 "C7519" H 2500 5600 50  0001 C CNN "LCSC"
-	1    2500 5600
+L power:VCC #PWR0101
+U 1 1 60AF4EE6
+P 1810 1150
+F 0 "#PWR0101" H 1810 1000 50  0001 C CNN
+F 1 "VCC" V 1817 1343 50  0000 C CNN
+F 2 "" H 1810 1150 50  0001 C CNN
+F 3 "" H 1810 1150 50  0001 C CNN
+	1    1810 1150
 	0    1    1    0   
 $EndComp
-Text GLabel 3850 5650 2    50   Input ~ 0
-D+
-Text GLabel 3850 5550 2    50   Input ~ 0
-D-
 $Comp
-L power:GND #PWR0102
-U 1 1 5C4B3104
-P 1050 7000
-F 0 "#PWR0102" H 1050 6750 50  0001 C CNN
-F 1 "GND" H 1055 6827 50  0000 C CNN
-F 2 "" H 1050 7000 50  0001 C CNN
-F 3 "" H 1050 7000 50  0001 C CNN
-	1    1050 7000
-	1    0    0    -1  
+L power:VCC #PWR0102
+U 1 1 60AF4EF9
+P 1810 2050
+F 0 "#PWR0102" H 1810 1900 50  0001 C CNN
+F 1 "VCC" V 1817 2243 50  0000 C CNN
+F 2 "" H 1810 2050 50  0001 C CNN
+F 3 "" H 1810 2050 50  0001 C CNN
+	1    1810 2050
+	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0103
-U 1 1 5C4B33A3
-P 2000 5600
-F 0 "#PWR0103" H 2000 5350 50  0001 C CNN
-F 1 "GND" H 2005 5427 50  0000 C CNN
-F 2 "" H 2000 5600 50  0001 C CNN
-F 3 "" H 2000 5600 50  0001 C CNN
-	1    2000 5600
-	1    0    0    -1  
+L power:+5V #PWR0118
+U 1 1 5C4F216F
+P 2880 7270
+F 0 "#PWR0118" H 2880 7120 50  0001 C CNN
+F 1 "+5V" H 2897 7443 50  0000 C CNN
+F 2 "" H 2880 7270 50  0001 C CNN
+F 3 "" H 2880 7270 50  0001 C CNN
+	1    2880 7270
+	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C4
-U 1 1 5C4B33F7
-P 4100 4200
-F 0 "C4" H 4215 4246 50  0000 L CNN
-F 1 "1uF (±10%)" H 4215 4155 50  0000 L CNN
-F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4138 4050 50  0001 C CNN
-F 3 "~" H 4100 4200 50  0001 C CNN
-F 4 "C28323" H 4100 4200 50  0001 C CNN "LCSC"
-	1    4100 4200
-	1    0    0    -1  
+L power:VCC #PWR0103
+U 1 1 60AF4EFB
+P 3330 1600
+F 0 "#PWR0103" H 3330 1450 50  0001 C CNN
+F 1 "VCC" V 3257 1663 50  0000 C CNN
+F 2 "" H 3330 1600 50  0001 C CNN
+F 3 "" H 3330 1600 50  0001 C CNN
+	1    3330 1600
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4100 4050 4350 4050
-$Comp
-L power:GND #PWR0104
-U 1 1 5C4B3645
-P 4100 4350
-F 0 "#PWR0104" H 4100 4100 50  0001 C CNN
-F 1 "GND" H 4105 4177 50  0000 C CNN
-F 2 "" H 4100 4350 50  0001 C CNN
-F 3 "" H 4100 4350 50  0001 C CNN
-	1    4100 4350
-	1    0    0    -1  
-$EndComp
-Text GLabel 4350 3750 0    50   Input ~ 0
-D+
-Text GLabel 4350 3850 0    50   Input ~ 0
-D-
-$Comp
-L Device:C C1
-U 1 1 5C4BFB4D
-P 1800 3050
-F 0 "C1" H 1686 3004 50  0000 R CNN
-F 1 "22pF" H 1686 3095 50  0000 R CNN
-F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1838 2900 50  0001 C CNN
-F 3 "~" H 1800 3050 50  0001 C CNN
-F 4 "C1804" H 1800 3050 50  0001 C CNN "LCSC"
-	1    1800 3050
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 5C4BFC59
-P 2500 3050
-F 0 "C2" H 2615 3096 50  0000 L CNN
-F 1 "22pF" H 2615 3005 50  0000 L CNN
-F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2538 2900 50  0001 C CNN
-F 3 "~" H 2500 3050 50  0001 C CNN
-F 4 "C1804" H 2500 3050 50  0001 C CNN "LCSC"
-	1    2500 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5C4BFE3E
-P 2150 3300
-F 0 "#PWR0105" H 2150 3050 50  0001 C CNN
-F 1 "GND" H 2155 3127 50  0000 C CNN
-F 2 "" H 2150 3300 50  0001 C CNN
-F 3 "" H 2150 3300 50  0001 C CNN
-	1    2150 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 3300 2150 3200
-Wire Wire Line
-	2150 2700 1950 2700
-Wire Wire Line
-	1950 3150 2150 3150
-Connection ~ 2150 3150
-Wire Wire Line
-	2150 3150 2150 3100
-Wire Wire Line
-	1800 3200 2150 3200
-Connection ~ 2150 3200
-Wire Wire Line
-	2150 3200 2150 3150
-Wire Wire Line
-	2500 3200 2150 3200
-Text GLabel 1800 2700 1    50   Input ~ 0
-XTAL1
-Text GLabel 2500 2700 1    50   Input ~ 0
-XTAL2
-Wire Wire Line
-	2500 2900 2500 2700
-Connection ~ 2500 2900
-Wire Wire Line
-	1800 2900 1800 2700
-Connection ~ 1800 2900
-Text GLabel 4350 3150 0    50   Input ~ 0
-XTAL2
-Text GLabel 4350 2950 0    50   Input ~ 0
-XTAL1
 $Comp
 L power:+5V #PWR0106
 U 1 1 5C4C2958
-P 3700 3500
-F 0 "#PWR0106" H 3700 3350 50  0001 C CNN
-F 1 "+5V" H 3717 3673 50  0000 C CNN
-F 2 "" H 3700 3500 50  0001 C CNN
-F 3 "" H 3700 3500 50  0001 C CNN
-	1    3700 3500
+P 3630 3070
+F 0 "#PWR0106" H 3630 2920 50  0001 C CNN
+F 1 "+5V" H 3629 3223 50  0000 C CNN
+F 2 "" H 3630 3070 50  0001 C CNN
+F 3 "" H 3630 3070 50  0001 C CNN
+	1    3630 3070
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
-U 1 1 5C4C2975
-P 3700 4200
-F 0 "C3" H 3815 4246 50  0000 L CNN
-F 1 "10uF" H 3815 4155 50  0000 L CNN
-F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3738 4050 50  0001 C CNN
-F 3 "~" H 3700 4200 50  0001 C CNN
-F 4 "C15850" H 3700 4200 50  0001 C CNN "LCSC"
-	1    3700 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 3550 3700 3500
-Wire Wire Line
-	4350 3550 3700 3550
-Wire Wire Line
-	3700 3550 3700 4050
-Connection ~ 3700 3550
-$Comp
-L power:GND #PWR0107
-U 1 1 5C4C63A2
-P 3700 4350
-F 0 "#PWR0107" H 3700 4100 50  0001 C CNN
-F 1 "GND" H 3705 4177 50  0000 C CNN
-F 2 "" H 3700 4350 50  0001 C CNN
-F 3 "" H 3700 4350 50  0001 C CNN
-	1    3700 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SWR1
-U 1 1 5C4CA743
-P 3850 2750
-F 0 "SWR1" H 3850 3035 50  0000 C CNN
-F 1 "SW_Push" H 3850 2944 50  0000 C CNN
-F 2 "arisutea:SW_SPST_TL3342" H 3850 2950 50  0001 C CNN
-F 3 "" H 3850 2950 50  0001 C CNN
-F 4 "C318884" H 3850 2750 50  0001 C CNN "LCSC"
-	1    3850 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 2750 3600 2750
-Wire Wire Line
-	3600 2750 3600 2800
-$Comp
-L power:GND #PWR0108
-U 1 1 5C4CB162
-P 3600 2800
-F 0 "#PWR0108" H 3600 2550 50  0001 C CNN
-F 1 "GND" H 3605 2627 50  0000 C CNN
-F 2 "" H 3600 2800 50  0001 C CNN
-F 3 "" H 3600 2800 50  0001 C CNN
-	1    3600 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5C4CB1B6
-P 4250 2550
-F 0 "R3" H 4320 2596 50  0000 L CNN
-F 1 "10K" V 4250 2500 50  0000 L CNN
-F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4180 2550 50  0001 C CNN
-F 3 "~" H 4250 2550 50  0001 C CNN
-F 4 "C17414" H 4250 2550 50  0001 C CNN "LCSC"
-	1    4250 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 2700 4250 2750
-Connection ~ 4250 2750
-Wire Wire Line
-	4250 2750 4350 2750
-$Comp
-L power:+5V #PWR0109
-U 1 1 5C4CC271
-P 4250 2400
-F 0 "#PWR0109" H 4250 2250 50  0001 C CNN
-F 1 "+5V" H 4267 2573 50  0000 C CNN
-F 2 "" H 4250 2400 50  0001 C CNN
-F 3 "" H 4250 2400 50  0001 C CNN
-	1    4250 2400
+L power:VCC #PWR0122
+U 1 1 6031E87A
+P 4830 2320
+F 0 "#PWR0122" H 4830 2170 50  0001 C CNN
+F 1 "VCC" H 4829 2476 50  0000 C CNN
+F 2 "" H 4830 2320 50  0001 C CNN
+F 3 "" H 4830 2320 50  0001 C CNN
+	1    4830 2320
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0110
 U 1 1 5C4CED7A
-P 4850 950
-F 0 "#PWR0110" H 4850 800 50  0001 C CNN
-F 1 "+5V" H 4867 1123 50  0000 C CNN
-F 2 "" H 4850 950 50  0001 C CNN
-F 3 "" H 4850 950 50  0001 C CNN
-	1    4850 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 1000 4850 1000
-Wire Wire Line
-	4950 1550 4950 2450
-Wire Wire Line
-	5050 2100 5050 2450
-Wire Wire Line
-	4850 950  4850 1000
-Connection ~ 4850 1000
-$Comp
-L power:GND #PWR0111
-U 1 1 5C4D2AB6
-P 6150 2400
-F 0 "#PWR0111" H 6150 2150 50  0001 C CNN
-F 1 "GND" H 6155 2227 50  0000 C CNN
-F 2 "" H 6150 2400 50  0001 C CNN
-F 3 "" H 6150 2400 50  0001 C CNN
-	1    6150 2400
+P 4880 3070
+F 0 "#PWR0110" H 4880 2920 50  0001 C CNN
+F 1 "+5V" H 4897 3243 50  0000 C CNN
+F 2 "" H 4880 3070 50  0001 C CNN
+F 3 "" H 4880 3070 50  0001 C CNN
+	1    4880 3070
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0112
-U 1 1 5C4D2B35
-P 6150 1850
-F 0 "#PWR0112" H 6150 1600 50  0001 C CNN
-F 1 "GND" H 6155 1677 50  0000 C CNN
-F 2 "" H 6150 1850 50  0001 C CNN
-F 3 "" H 6150 1850 50  0001 C CNN
-	1    6150 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 5C4CED24
-P 5700 1300
-F 0 "#PWR0113" H 5700 1050 50  0001 C CNN
-F 1 "GND" H 5705 1127 50  0000 C CNN
-F 2 "" H 5700 1300 50  0001 C CNN
-F 3 "" H 5700 1300 50  0001 C CNN
-	1    5700 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C5
-U 1 1 5C4D647D
-P 5700 1150
-F 0 "C5" H 5815 1196 50  0000 L CNN
-F 1 "1uF" H 5815 1105 50  0000 L CNN
-F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5738 1000 50  0001 C CNN
-F 3 "~" H 5700 1150 50  0001 C CNN
-F 4 "C28323" H 5700 1150 50  0001 C CNN "LCSC"
-	1    5700 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 5C4D6747
-P 5700 1700
-F 0 "C6" H 5815 1746 50  0000 L CNN
-F 1 "0.1uF" H 5815 1655 50  0000 L CNN
-F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5738 1550 50  0001 C CNN
-F 3 "~" H 5700 1700 50  0001 C CNN
-F 4 "C28233" H 5700 1700 50  0001 C CNN "LCSC"
-	1    5700 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0114
-U 1 1 5C4D79EA
-P 5700 1850
-F 0 "#PWR0114" H 5700 1600 50  0001 C CNN
-F 1 "GND" H 5705 1677 50  0000 C CNN
-F 2 "" H 5700 1850 50  0001 C CNN
-F 3 "" H 5700 1850 50  0001 C CNN
-	1    5700 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 1000 4850 2450
-$Comp
-L Device:C C8
-U 1 1 5C4DA48C
-P 6150 1700
-F 0 "C8" H 6265 1746 50  0000 L CNN
-F 1 "0.1uF" H 6265 1655 50  0000 L CNN
-F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6188 1550 50  0001 C CNN
-F 3 "~" H 6150 1700 50  0001 C CNN
-F 4 "C28233" H 6150 1700 50  0001 C CNN "LCSC"
-	1    6150 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C7
-U 1 1 5C4DEE57
-P 5700 2250
-F 0 "C7" H 5815 2296 50  0000 L CNN
-F 1 "0.1uF" H 5815 2205 50  0000 L CNN
-F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5738 2100 50  0001 C CNN
-F 3 "~" H 5700 2250 50  0001 C CNN
-F 4 "C28233" H 5700 2250 50  0001 C CNN "LCSC"
-	1    5700 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0115
-U 1 1 5C4DEE9D
-P 5700 2400
-F 0 "#PWR0115" H 5700 2150 50  0001 C CNN
-F 1 "GND" H 5705 2227 50  0000 C CNN
-F 2 "" H 5700 2400 50  0001 C CNN
-F 3 "" H 5700 2400 50  0001 C CNN
-	1    5700 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 5C4DEEC8
-P 6150 2250
-F 0 "C9" H 6265 2296 50  0000 L CNN
-F 1 "0.1uF" H 6265 2205 50  0000 L CNN
-F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6188 2100 50  0001 C CNN
-F 3 "~" H 6150 2250 50  0001 C CNN
-F 4 "C28233" H 6150 2250 50  0001 C CNN "LCSC"
-	1    6150 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 2100 6150 2100
-Wire Wire Line
-	5050 2100 5700 2100
-Wire Wire Line
-	5700 1550 6150 1550
-Wire Wire Line
-	4950 1550 5700 1550
-Connection ~ 5700 1550
-Connection ~ 5700 2100
-$Comp
-L power:GND #PWR0116
-U 1 1 5C4F0424
-P 4950 6150
-F 0 "#PWR0116" H 4950 5900 50  0001 C CNN
-F 1 "GND" H 4955 5977 50  0000 C CNN
-F 2 "" H 4950 6150 50  0001 C CNN
-F 3 "" H 4950 6150 50  0001 C CNN
-	1    4950 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 6050 4850 6100
-Wire Wire Line
-	4850 6100 4950 6100
-Wire Wire Line
-	4950 6100 4950 6150
-Wire Wire Line
-	4950 6050 4950 6100
-Connection ~ 4950 6100
-$Comp
-L power:+5V #PWR0117
-U 1 1 5C4F181F
-P 4950 1500
-F 0 "#PWR0117" H 4950 1350 50  0001 C CNN
-F 1 "+5V" H 4967 1673 50  0000 C CNN
-F 2 "" H 4950 1500 50  0001 C CNN
-F 3 "" H 4950 1500 50  0001 C CNN
-	1    4950 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 1500 4950 1550
-Connection ~ 4950 1550
-$Comp
-L power:+5V #PWR0118
-U 1 1 5C4F216F
-P 5050 2050
-F 0 "#PWR0118" H 5050 1900 50  0001 C CNN
-F 1 "+5V" H 5067 2223 50  0000 C CNN
-F 2 "" H 5050 2050 50  0001 C CNN
-F 3 "" H 5050 2050 50  0001 C CNN
-	1    5050 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5050 2050 5050 2100
-Connection ~ 5050 2100
-Wire Bus Line
-	7200 5800 7500 5800
-Entry Wire Line
-	7100 2850 7200 2950
-Entry Wire Line
-	7100 3050 7200 3150
-Entry Wire Line
-	7100 3150 7200 3250
-Entry Wire Line
-	7100 3250 7200 3350
-Entry Wire Line
-	7100 3350 7200 3450
-Entry Wire Line
-	7100 3450 7200 3550
-Wire Wire Line
-	5550 4150 7100 4150
-Wire Wire Line
-	5550 4250 7100 4250
-Wire Wire Line
-	5550 4350 7100 4350
-Wire Wire Line
-	5550 4450 7100 4450
-Wire Wire Line
-	5550 4550 7100 4550
-Wire Wire Line
-	5550 4650 7100 4650
-Entry Wire Line
-	7100 3650 7200 3750
-Entry Wire Line
-	7100 3750 7200 3850
-Entry Wire Line
-	7100 3950 7200 4050
-Entry Wire Line
-	7100 4050 7200 4150
-Entry Wire Line
-	7100 4150 7200 4250
-Entry Wire Line
-	7100 4250 7200 4350
-Entry Wire Line
-	7100 4350 7200 4450
-Entry Wire Line
-	7100 4450 7200 4550
-Entry Wire Line
-	7100 4550 7200 4650
-Entry Wire Line
-	7100 4650 7200 4750
-Entry Wire Line
-	7100 2750 7200 2850
-Entry Wire Line
-	7100 4950 7200 5050
-Entry Wire Line
-	7100 5150 7200 5250
-Entry Wire Line
-	7100 5250 7200 5350
-Text Label 6900 3950 0    50   ~ 0
-row0
-Text Label 6900 4050 0    50   ~ 0
-row1
-Text Label 6900 4150 0    50   ~ 0
-row2
-Text Label 6900 4250 0    50   ~ 0
-row3
-Text Label 6900 4450 0    50   ~ 0
-row4
-Text Label 6900 5150 0    50   ~ 0
-col0
-Text Label 6900 5250 0    50   ~ 0
-col1
-Text Label 6900 4950 0    50   ~ 0
-col2
-Text Label 6900 3750 0    50   ~ 0
-col3
-Text Label 6900 3650 0    50   ~ 0
-col4
-Text Label 6900 3350 0    50   ~ 0
-col5
-Text Label 6900 4350 0    50   ~ 0
-col6
-Text Label 6900 2850 0    50   ~ 0
-col7
-Text Label 6900 2750 0    50   ~ 0
-col8
-Text Label 6900 3450 0    50   ~ 0
-col9
-Text Label 6850 3250 0    50   ~ 0
-col10
-Text Label 6850 3150 0    50   ~ 0
-col11
-Text Label 6850 4650 0    50   ~ 0
-col12
-Text Label 6850 4550 0    50   ~ 0
-col13
-Text Label 6850 3050 0    50   ~ 0
-col14
-Entry Wire Line
-	5850 5350 5950 5450
-Entry Wire Line
-	5850 5450 5950 5550
-Entry Wire Line
-	5850 5550 5950 5650
-Entry Wire Line
-	5850 5650 5950 5750
-Wire Wire Line
-	5550 5350 5850 5350
-Wire Wire Line
-	5550 5450 5850 5450
-Wire Wire Line
-	5550 5550 5850 5550
-Wire Wire Line
-	5550 5650 5850 5650
-Text Label 5600 5550 0    50   ~ 0
-NUM_L
-Text Label 5600 5350 0    50   ~ 0
-FN_L
-Text Label 5600 5650 0    50   ~ 0
-RGB
-$Comp
-L Device:R R4
-U 1 1 5C4E7AD8
-P 6150 5900
-F 0 "R4" H 6220 5946 50  0000 L CNN
-F 1 "10K" V 6150 5850 50  0000 L CNN
-F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6080 5900 50  0001 C CNN
-F 3 "~" H 6150 5900 50  0001 C CNN
-F 4 "C17414" H 6150 5900 50  0001 C CNN "LCSC"
-	1    6150 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0119
-U 1 1 5C4E7CB4
-P 6150 6100
-F 0 "#PWR0119" H 6150 5850 50  0001 C CNN
-F 1 "GND" H 6155 5927 50  0000 C CNN
-F 2 "" H 6150 6100 50  0001 C CNN
-F 3 "" H 6150 6100 50  0001 C CNN
-	1    6150 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 4850 6150 5750
-Wire Wire Line
-	5550 4850 6150 4850
-Wire Wire Line
-	6150 6100 6150 6050
-$Sheet
-S 7950 2650 800  2350
-U 5C4EF302
-F0 "matrix" 50
-F1 "matrix.sch" 50
-F2 "row0" T L 7950 2800 50 
-F3 "row1" T L 7950 2900 50 
-F4 "row2" T L 7950 3000 50 
-F5 "row3" T L 7950 3100 50 
-F6 "row4" T L 7950 3200 50 
-F7 "col0" T L 7950 3400 50 
-F8 "col1" T L 7950 3500 50 
-F9 "col2" T L 7950 3600 50 
-F10 "col3" T L 7950 3700 50 
-F11 "col4" T L 7950 3800 50 
-F12 "col5" T L 7950 3900 50 
-F13 "col6" T L 7950 4000 50 
-F14 "col7" T L 7950 4100 50 
-F15 "col8" T L 7950 4200 50 
-F16 "col9" T L 7950 4300 50 
-F17 "col10" T L 7950 4400 50 
-F18 "col11" T L 7950 4500 50 
-F19 "col12" T L 7950 4600 50 
-F20 "col13" T L 7950 4700 50 
-F21 "col14" T L 7950 4800 50 
-$EndSheet
-Wire Wire Line
-	7950 2800 7600 2800
-Entry Wire Line
-	7500 2900 7600 2800
-Entry Wire Line
-	7500 3000 7600 2900
-Wire Wire Line
-	7950 2900 7600 2900
-Entry Wire Line
-	7500 3100 7600 3000
-Entry Wire Line
-	7500 3200 7600 3100
-Entry Wire Line
-	7500 3300 7600 3200
-Wire Wire Line
-	7600 3000 7950 3000
-Wire Wire Line
-	7600 3100 7950 3100
-Wire Wire Line
-	7600 3200 7950 3200
-Entry Wire Line
-	7500 3500 7600 3400
-Entry Wire Line
-	7500 3600 7600 3500
-Entry Wire Line
-	7500 3700 7600 3600
-Entry Wire Line
-	7500 3800 7600 3700
-Entry Wire Line
-	7500 3900 7600 3800
-Entry Wire Line
-	7500 4000 7600 3900
-Entry Wire Line
-	7500 4100 7600 4000
-Entry Wire Line
-	7500 4200 7600 4100
-Entry Wire Line
-	7500 4300 7600 4200
-Entry Wire Line
-	7500 4400 7600 4300
-Entry Wire Line
-	7500 4500 7600 4400
-Entry Wire Line
-	7500 4600 7600 4500
-Entry Wire Line
-	7500 4700 7600 4600
-Entry Wire Line
-	7500 4800 7600 4700
-Entry Wire Line
-	7500 4900 7600 4800
-Wire Wire Line
-	7600 4800 7950 4800
-Wire Wire Line
-	7600 4700 7950 4700
-Wire Wire Line
-	7600 4600 7950 4600
-Wire Wire Line
-	7600 4500 7950 4500
-Wire Wire Line
-	7600 4400 7950 4400
-Wire Wire Line
-	7600 4300 7950 4300
-Wire Wire Line
-	7600 4200 7950 4200
-Wire Wire Line
-	7600 4100 7950 4100
-Wire Wire Line
-	7600 4000 7950 4000
-Wire Wire Line
-	7600 3900 7950 3900
-Wire Wire Line
-	7600 3800 7950 3800
-Wire Wire Line
-	7600 3700 7950 3700
-Wire Wire Line
-	7600 3600 7950 3600
-Wire Wire Line
-	7600 3500 7950 3500
-Wire Wire Line
-	7600 3400 7950 3400
-Entry Wire Line
-	5950 7000 6050 6900
-Entry Wire Line
-	5950 6900 6050 6800
-Entry Wire Line
-	5950 6800 6050 6700
-Entry Wire Line
-	5950 6700 6050 6600
-Wire Bus Line
-	6200 2700 6550 2700
-Wire Bus Line
-	6550 700  6550 2700
-Wire Bus Line
-	4000 700  6550 700 
-Entry Wire Line
-	6200 3150 6300 3050
-Entry Wire Line
-	6200 2950 6300 2850
-Entry Wire Line
-	6100 2850 6200 2950
-Entry Wire Line
-	6100 2950 6200 3050
-Entry Wire Line
-	6100 3050 6200 3150
-Wire Wire Line
-	6300 3050 7100 3050
-Wire Wire Line
-	6300 2850 7100 2850
-Wire Wire Line
-	6100 2850 5550 2850
-Wire Wire Line
-	5550 2950 6100 2950
-Wire Wire Line
-	5550 3050 6100 3050
-Text Label 5900 2850 0    50   ~ 0
-SCK
-Text Label 5900 2950 0    50   ~ 0
-MOSI
-Text Label 5900 3050 0    50   ~ 0
-MISO
-Text Label 6350 2850 0    50   ~ 0
-SCK
-Text Label 6350 3050 0    50   ~ 0
-MISO
-Wire Wire Line
-	7100 3150 6650 3150
-Wire Wire Line
-	6650 3150 6650 3200
-Wire Wire Line
-	5800 3150 5800 3200
-Wire Wire Line
-	5800 3200 6650 3200
-Entry Wire Line
-	3900 900  4000 1000
-Entry Wire Line
-	3900 1300 4000 1400
-Entry Wire Line
-	3900 1500 4000 1600
-Wire Wire Line
-	3550 1500 3900 1500
-Wire Wire Line
-	3550 1300 3900 1300
-Wire Wire Line
-	3550 900  3900 900 
-Text Label 3700 1300 0    50   ~ 0
-SCK
-Text Label 3700 1500 0    50   ~ 0
-MOSI
-Text Label 3700 900  0    50   ~ 0
-MISO
-Wire Wire Line
-	3550 1700 4050 1700
-Wire Wire Line
-	4050 1700 4050 2750
-Connection ~ 4050 2750
-Wire Wire Line
-	4050 2750 4250 2750
-Text Label 3700 1700 0    50   ~ 0
-~RES~
-$Comp
-L power:GND #PWR0120
-U 1 1 5C946886
-P 4150 1950
-F 0 "#PWR0120" H 4150 1700 50  0001 C CNN
-F 1 "GND" H 4155 1777 50  0000 C CNN
-F 2 "" H 4150 1950 50  0001 C CNN
-F 3 "" H 4150 1950 50  0001 C CNN
-	1    4150 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0121
-U 1 1 5C9469B4
-P 4150 1050
-F 0 "#PWR0121" H 4150 900 50  0001 C CNN
-F 1 "+5V" H 4167 1223 50  0000 C CNN
-F 2 "" H 4150 1050 50  0001 C CNN
-F 3 "" H 4150 1050 50  0001 C CNN
-	1    4150 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 1100 4150 1100
-Wire Wire Line
-	4150 1100 4150 1050
-Wire Wire Line
-	3550 1900 4150 1900
-Wire Wire Line
-	4150 1900 4150 1950
-Text Label 6100 6600 0    50   ~ 0
-CAPS_L
-Text Label 6100 6700 0    50   ~ 0
-NUM_L
-Text Label 6100 6800 0    50   ~ 0
-FN_L
-Text Label 6100 6900 0    50   ~ 0
-RGB
-NoConn ~ 4350 3350
-Wire Wire Line
-	5550 2750 7100 2750
-Wire Wire Line
-	5550 3250 7100 3250
-Wire Wire Line
-	5550 3350 7100 3350
-Wire Wire Line
-	5550 3450 7100 3450
-Wire Wire Line
-	5550 3650 7100 3650
-Wire Wire Line
-	5550 3750 7100 3750
-Wire Wire Line
-	5550 3950 7100 3950
-Wire Wire Line
-	5550 4050 7100 4050
-Wire Wire Line
-	5550 4950 7100 4950
-Wire Wire Line
-	5550 5150 7100 5150
-Wire Wire Line
-	5550 5250 7100 5250
-Text Label 7650 3400 0    50   ~ 0
-col0
-Text Label 7650 3500 0    50   ~ 0
-col1
-Text Label 7650 4800 0    50   ~ 0
-col14
-Text Label 7650 4700 0    50   ~ 0
-col13
-Text Label 7650 4600 0    50   ~ 0
-col12
-Text Label 7650 4400 0    50   ~ 0
-col10
-Text Label 7650 4500 0    50   ~ 0
-col11
-Text Label 7650 4200 0    50   ~ 0
-col8
-Text Label 7650 4100 0    50   ~ 0
-col7
-Text Label 7650 4300 0    50   ~ 0
-col9
-Text Label 7650 4000 0    50   ~ 0
-col6
-Text Label 7650 3600 0    50   ~ 0
-col2
-Text Label 7650 3700 0    50   ~ 0
-col3
-Text Label 7650 3800 0    50   ~ 0
-col4
-Text Label 7650 3900 0    50   ~ 0
-col5
-Wire Wire Line
-	5550 3150 5800 3150
-Text Label 7650 3200 0    50   ~ 0
-row4
-Text Label 7650 2800 0    50   ~ 0
-row0
-Text Label 7650 2900 0    50   ~ 0
-row1
-Text Label 7650 3000 0    50   ~ 0
-row2
-Text Label 7650 3100 0    50   ~ 0
-row3
-Wire Wire Line
-	3300 7000 3300 7050
-$Comp
-L power:GND #PWR01
-U 1 1 5C51C1AD
-P 3300 7050
-F 0 "#PWR01" H 3300 6800 50  0001 C CNN
-F 1 "GND" H 3305 6877 50  0000 C CNN
-F 2 "" H 3300 7050 50  0001 C CNN
-F 3 "" H 3300 7050 50  0001 C CNN
-	1    3300 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5C583EFC
-P 9800 2900
-F 0 "H1" H 9900 2946 50  0000 L CNN
-F 1 "ThroughHole" H 9900 2855 50  0000 L CNN
-F 2 "arisutea:Generic-Mounthole" H 9800 2900 50  0001 C CNN
-F 3 "~" H 9800 2900 50  0001 C CNN
-	1    9800 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5C584371
-P 9800 3100
-F 0 "H2" H 9900 3146 50  0000 L CNN
-F 1 "ThroughHole" H 9900 3055 50  0000 L CNN
-F 2 "arisutea:Generic-Mounthole" H 9800 3100 50  0001 C CNN
-F 3 "~" H 9800 3100 50  0001 C CNN
-	1    9800 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5C59C18D
-P 9800 3300
-F 0 "H3" H 9900 3346 50  0000 L CNN
-F 1 "ThroughHole" H 9900 3255 50  0000 L CNN
-F 2 "arisutea:Generic-Mounthole" H 9800 3300 50  0001 C CNN
-F 3 "~" H 9800 3300 50  0001 C CNN
-	1    9800 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5C59C1E9
-P 9800 3500
-F 0 "H4" H 9900 3546 50  0000 L CNN
-F 1 "ThroughHole" H 9900 3455 50  0000 L CNN
-F 2 "arisutea:Generic-Mounthole" H 9800 3500 50  0001 C CNN
-F 3 "~" H 9800 3500 50  0001 C CNN
-	1    9800 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 5C59C249
-P 9800 3700
-F 0 "H5" H 9900 3746 50  0000 L CNN
-F 1 "ThroughHole" H 9900 3655 50  0000 L CNN
-F 2 "arisutea:Generic-Mounthole" H 9800 3700 50  0001 C CNN
-F 3 "~" H 9800 3700 50  0001 C CNN
-	1    9800 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 5C59C2A7
-P 9800 3900
-F 0 "H6" H 9900 3946 50  0000 L CNN
-F 1 "ThroughHole" H 9900 3855 50  0000 L CNN
-F 2 "arisutea:Generic-Mounthole" H 9800 3900 50  0001 C CNN
-F 3 "~" H 9800 3900 50  0001 C CNN
-	1    9800 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H7
-U 1 1 5C59C305
-P 9800 4100
-F 0 "H7" H 9900 4146 50  0000 L CNN
-F 1 "ThroughHole" H 9900 4055 50  0000 L CNN
-F 2 "arisutea:Generic-Mounthole" H 9800 4100 50  0001 C CNN
-F 3 "~" H 9800 4100 50  0001 C CNN
-	1    9800 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H8
-U 1 1 5C59C367
-P 9800 4300
-F 0 "H8" H 9900 4346 50  0000 L CNN
-F 1 "ThroughHole" H 9900 4255 50  0000 L CNN
-F 2 "arisutea:Generic-Mounthole" H 9800 4300 50  0001 C CNN
-F 3 "~" H 9800 4300 50  0001 C CNN
-	1    9800 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0101
-U 1 1 5C4B2712
-P 3600 4950
-F 0 "#PWR0101" H 3600 4800 50  0001 C CNN
-F 1 "VCC" H 3617 5123 50  0000 C CNN
-F 2 "" H 3600 4950 50  0001 C CNN
-F 3 "" H 3600 4950 50  0001 C CNN
-	1    3600 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5F98F744
-P 1450 6900
-F 0 "R5" V 1350 6900 50  0000 C CNN
-F 1 "5k1" V 1450 6900 50  0000 C CNN
-F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1380 6900 50  0001 C CNN
-F 3 "~" H 1450 6900 50  0001 C CNN
-F 4 "C27834" H 1450 6900 50  0001 C CNN "LCSC"
-	1    1450 6900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 5F9A4013
-P 1450 6600
-F 0 "R6" V 1350 6600 50  0000 C CNN
-F 1 "5k1" V 1450 6600 50  0000 C CNN
-F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1380 6600 50  0001 C CNN
-F 3 "~" H 1450 6600 50  0001 C CNN
-F 4 "C27834" H 1450 6600 50  0001 C CNN "LCSC"
-	1    1450 6600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1600 6600 1750 6600
-Wire Wire Line
-	1800 6900 1600 6900
-Wire Wire Line
-	1300 6900 1050 6900
-Connection ~ 1050 6900
-Wire Wire Line
-	1050 6900 1050 7000
-Wire Wire Line
-	1300 6600 1050 6600
-Wire Wire Line
-	1050 6600 1050 6900
-NoConn ~ 1650 6050
-NoConn ~ 1650 6150
-Wire Wire Line
-	1650 5450 1900 5450
-Wire Wire Line
-	1900 5450 1900 5550
-Wire Wire Line
-	1900 5550 1650 5550
-Wire Wire Line
-	1900 5750 1650 5750
-Wire Wire Line
-	1900 5650 1900 5750
-Wire Wire Line
-	1650 5650 1900 5650
-Wire Wire Line
-	3400 6550 3250 6550
-Wire Wire Line
-	3250 6550 3250 4950
-Connection ~ 3250 4950
-Wire Wire Line
-	3250 4950 3600 4950
-Wire Wire Line
-	3400 6700 3200 6700
-Wire Wire Line
-	3200 6700 3200 6100
-Wire Wire Line
-	3200 5650 3450 5650
-Wire Wire Line
-	3400 6850 3150 6850
-Wire Wire Line
-	3150 6850 3150 5550
-Wire Wire Line
-	3150 5550 3450 5550
-$Comp
-L Device:R R2
-U 1 1 5C4B25B0
-P 3600 5550
-F 0 "R2" V 3500 5550 50  0000 C CNN
-F 1 "22" V 3600 5550 50  0000 C CNN
-F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3530 5550 50  0001 C CNN
-F 3 "~" H 3600 5550 50  0001 C CNN
-F 4 "C17561" H 3600 5550 50  0001 C CNN "LCSC"
-	1    3600 5550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5C4B245D
-P 3600 5650
-F 0 "R1" V 3700 5650 50  0000 C CNN
-F 1 "22" V 3600 5650 50  0000 C CNN
-F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3530 5650 50  0001 C CNN
-F 3 "~" H 3600 5650 50  0001 C CNN
-F 4 "C17561" H 3600 5650 50  0001 C CNN "LCSC"
-	1    3600 5650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3750 5650 3850 5650
-Wire Wire Line
-	3750 5550 3850 5550
-Wire Wire Line
-	3300 7000 3400 7000
-$Comp
-L power:VCC #PWR0122
-U 1 1 6031E87A
-P 2200 6800
-F 0 "#PWR0122" H 2200 6650 50  0001 C CNN
-F 1 "VCC" H 2217 6973 50  0000 C CNN
-F 2 "" H 2200 6800 50  0001 C CNN
-F 3 "" H 2200 6800 50  0001 C CNN
-	1    2200 6800
+L power:+5V #PWR0109
+U 1 1 5C4CC271
+P 5190 1160
+F 0 "#PWR0109" H 5190 1010 50  0001 C CNN
+F 1 "+5V" H 5207 1333 50  0000 C CNN
+F 2 "" H 5190 1160 50  0001 C CNN
+F 3 "" H 5190 1160 50  0001 C CNN
+	1    5190 1160
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0123
 U 1 1 6031F4A4
-P 2800 6800
-F 0 "#PWR0123" H 2800 6650 50  0001 C CNN
-F 1 "+5V" H 2815 6973 50  0000 C CNN
-F 2 "" H 2800 6800 50  0001 C CNN
-F 3 "" H 2800 6800 50  0001 C CNN
-	1    2800 6800
+P 5430 2320
+F 0 "#PWR0123" H 5430 2170 50  0001 C CNN
+F 1 "+5V" H 5424 2471 50  0000 C CNN
+F 2 "" H 5430 2320 50  0001 C CNN
+F 3 "" H 5430 2320 50  0001 C CNN
+	1    5430 2320
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse_Small F1
-U 1 1 6032001A
-P 2500 6800
-F 0 "F1" V 2295 6800 50  0000 C CNN
-F 1 "500mA" V 2386 6800 50  0000 C CNN
-F 2 "arisutea:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2550 6600 50  0001 L CNN
-F 3 "~" H 2500 6800 50  0001 C CNN
-	1    2500 6800
+L power:+5V #PWR0111
+U 1 1 60AF4EFC
+P 5530 4020
+F 0 "#PWR0111" H 5530 3870 50  0001 C CNN
+F 1 "+5V" V 5532 4226 50  0000 C CNN
+F 2 "" H 5530 4020 50  0001 C CNN
+F 3 "" H 5530 4020 50  0001 C CNN
+	1    5530 4020
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2600 6800 2800 6800
-Wire Wire Line
-	2400 6800 2200 6800
-Wire Wire Line
-	1900 5450 1900 5100
-Wire Wire Line
-	1900 5100 2400 5100
-Connection ~ 1900 5450
-Wire Wire Line
-	2600 5100 3150 5100
-Wire Wire Line
-	3150 5100 3150 5550
-Connection ~ 3150 5550
-Wire Wire Line
-	3000 5600 3000 4950
-Wire Wire Line
-	3000 4950 3250 4950
-Wire Wire Line
-	2600 6100 3200 6100
-Connection ~ 3200 6100
-Wire Wire Line
-	3200 6100 3200 5650
-Wire Wire Line
-	2400 6100 1900 6100
-Wire Wire Line
-	1900 6100 1900 5750
-Connection ~ 1900 5750
-Connection ~ 3000 4950
 $Comp
-L arisutea-pcb-r1:USB_C_Receptacle_HRO_TYPE-C-31-M-12 USB1
-U 1 1 603F7935
-P 1050 5550
-F 0 "USB1" H 1050 6350 50  0000 C CNN
-F 1 "USB_C_HRO_TYPE-C-31-M-12-USB_Type-C" V 600 5550 50  0000 C CNN
-F 2 "arisutea:USB_C_Receptacle_HRO_TYPE-C-31-M-12-HandSoldering" H 1200 5550 50  0001 C CNN
-F 3 "" H 1200 5550 50  0001 C CNN
-	1    1050 5550
-	1    0    0    -1  
+L power:+5V #PWR0112
+U 1 1 60AF4EFA
+P 5530 6520
+F 0 "#PWR0112" H 5530 6370 50  0001 C CNN
+F 1 "+5V" V 5532 6726 50  0000 C CNN
+F 2 "" H 5530 6520 50  0001 C CNN
+F 3 "" H 5530 6520 50  0001 C CNN
+	1    5530 6520
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1050 6600 1050 6450
-Wire Wire Line
-	1050 6450 750  6450
-Connection ~ 1050 6600
-Wire Wire Line
-	1800 5150 1650 5150
-Wire Wire Line
-	1800 5150 1800 6900
-Wire Wire Line
-	1750 5250 1650 5250
-Wire Wire Line
-	1750 5250 1750 6600
-$Comp
-L arisutea-pcb-r1:LOGO LOGO1
-U 1 1 6042E29E
-P 8700 6100
-F 0 "LOGO1" H 8700 6300 50  0000 C CNN
-F 1 "arisutea_logo" H 8775 6474 50  0001 C CNN
-F 2 "arisutea:arisutea_logo" H 8700 6450 50  0001 C CNN
-F 3 "" H 8700 6450 50  0001 C CNN
-	1    8700 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 2900 2000 2900
-Wire Wire Line
-	1950 2700 1950 3150
-Wire Wire Line
-	2300 2900 2500 2900
-$Comp
-L Device:Crystal_GND24 Y1
-U 1 1 5C4BFA85
-P 2150 2900
-F 0 "Y1" H 2100 3250 50  0000 L CNN
-F 1 "Crystal_GND24" H 1900 3150 50  0000 L CNN
-F 2 "arisutea:Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering" H 2150 2900 50  0001 C CNN
-F 3 "~" H 2150 2900 50  0001 C CNN
-F 4 "C89371" H 2150 2900 50  0001 C CNN "LCSC"
-	1    2150 2900
-	1    0    0    -1  
-$EndComp
-Connection ~ 1050 6450
-Wire Wire Line
-	1650 4950 3000 4950
-$Comp
-L Connector_Generic:Conn_01x01 J15
-U 1 1 5C505D0A
-P 3600 7000
-F 0 "J15" H 3679 7042 50  0000 L CNN
-F 1 "GND" H 3679 6951 50  0000 L CNN
-F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3600 7000 50  0001 C CNN
-F 3 "~" H 3600 7000 50  0001 C CNN
-	1    3600 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J14
-U 1 1 5C4F0ABE
-P 3600 6850
-F 0 "J14" H 3679 6892 50  0000 L CNN
-F 1 "D-" H 3679 6801 50  0000 L CNN
-F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3600 6850 50  0001 C CNN
-F 3 "~" H 3600 6850 50  0001 C CNN
-	1    3600 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J13
-U 1 1 5C4E1CA1
-P 3600 6700
-F 0 "J13" H 3679 6742 50  0000 L CNN
-F 1 "D+" H 3679 6651 50  0000 L CNN
-F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3600 6700 50  0001 C CNN
-F 3 "~" H 3600 6700 50  0001 C CNN
-	1    3600 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J12
-U 1 1 5C505CBA
-P 3600 6550
-F 0 "J12" H 3679 6592 50  0000 L CNN
-F 1 "VCC" H 3679 6501 50  0000 L CNN
-F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3600 6550 50  0001 C CNN
-F 3 "~" H 3600 6550 50  0001 C CNN
-	1    3600 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J7
-U 1 1 5C90C1E8
-P 3350 1900
-F 0 "J7" H 3500 1850 50  0000 C CNN
-F 1 "GND" H 3500 1950 50  0000 C CNN
-F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 1900 50  0001 C CNN
-F 3 "~" H 3350 1900 50  0001 C CNN
-	1    3350 1900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 5C90C19E
-P 3350 1700
-F 0 "J6" H 3500 1650 50  0000 C CNN
-F 1 "~RES~" H 3500 1750 50  0000 C CNN
-F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 1700 50  0001 C CNN
-F 3 "~" H 3350 1700 50  0001 C CNN
-	1    3350 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 5C90C00A
-P 3350 1500
-F 0 "J5" H 3500 1450 50  0000 C CNN
-F 1 "MOSI" H 3500 1550 50  0000 C CNN
-F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 1500 50  0001 C CNN
-F 3 "~" H 3350 1500 50  0001 C CNN
-	1    3350 1500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5C90BFC6
-P 3350 1300
-F 0 "J4" H 3500 1250 50  0000 C CNN
-F 1 "SCK" H 3500 1350 50  0000 C CNN
-F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 1300 50  0001 C CNN
-F 3 "~" H 3350 1300 50  0001 C CNN
-	1    3350 1300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 5C90B878
-P 3350 1100
-F 0 "J3" H 3500 1050 50  0000 C CNN
-F 1 "+5V" H 3500 1150 50  0000 C CNN
-F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 1100 50  0001 C CNN
-F 3 "~" H 3350 1100 50  0001 C CNN
-	1    3350 1100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J2
-U 1 1 5C90B624
-P 3350 900
-F 0 "J2" H 3500 850 50  0000 C CNN
-F 1 "MISO" H 3500 950 50  0000 C CNN
-F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 900 50  0001 C CNN
-F 3 "~" H 3350 900 50  0001 C CNN
-	1    3350 900 
-	-1   0    0    1   
-$EndComp
-$Comp
-L arisutea-pcb-r1:LOGO LOGO2
-U 1 1 605B7585
-P 9050 6100
-F 0 "LOGO2" H 9050 6300 50  0000 C CNN
-F 1 "arisutea_logo" H 9125 6474 50  0001 C CNN
-F 2 "arisutea:arisutea_logo" H 9050 6450 50  0001 C CNN
-F 3 "" H 9050 6450 50  0001 C CNN
-	1    9050 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J16
-U 1 1 605F9602
-P 7600 900
-F 0 "J16" H 7680 942 50  0000 L CNN
-F 1 "RGB" H 7680 851 50  0000 L CNN
-F 2 "arisutea:PinHeader_1x03_P2.54mm_Vertical" H 7600 900 50  0001 C CNN
-F 3 "~" H 7600 900 50  0001 C CNN
-	1    7600 900 
-	1    0    0    -1  
-$EndComp
-Text GLabel 7200 900  0    50   Input ~ 0
-RGB
 $Comp
 L power:+5V #PWR0124
 U 1 1 605FC221
-P 7200 800
-F 0 "#PWR0124" H 7200 650 50  0001 C CNN
-F 1 "+5V" H 7215 973 50  0000 C CNN
-F 2 "" H 7200 800 50  0001 C CNN
-F 3 "" H 7200 800 50  0001 C CNN
-	1    7200 800 
+P 7565 3325
+F 0 "#PWR0124" H 7565 3175 50  0001 C CNN
+F 1 "+5V" H 7580 3498 50  0000 C CNN
+F 2 "" H 7565 3325 50  0001 C CNN
+F 3 "" H 7565 3325 50  0001 C CNN
+	1    7565 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0114
+U 1 1 60AF4EF8
+P 8760 1350
+F 0 "#PWR0114" H 8760 1200 50  0001 C CNN
+F 1 "VCC" V 8757 1553 50  0000 C CNN
+F 2 "" H 8760 1350 50  0001 C CNN
+F 3 "" H 8760 1350 50  0001 C CNN
+	1    8760 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0121
+U 1 1 5C9469B4
+P 10200 1370
+F 0 "#PWR0121" H 10200 1220 50  0001 C CNN
+F 1 "+5V" V 10202 1576 50  0000 C CNN
+F 2 "" H 10200 1370 50  0001 C CNN
+F 3 "" H 10200 1370 50  0001 C CNN
+	1    10200 1370
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 60AF4EF6
+P 1810 1050
+F 0 "#PWR0115" H 1810 800 50  0001 C CNN
+F 1 "GND" V 1805 857 50  0000 C CNN
+F 2 "" H 1810 1050 50  0001 C CNN
+F 3 "" H 1810 1050 50  0001 C CNN
+	1    1810 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 00000000
+P 1810 2300
+F 0 "#PWR0116" H 1810 2050 50  0001 C CNN
+F 1 "GND" H 1815 2127 50  0000 C CNN
+F 2 "" H 1810 2300 50  0001 C CNN
+F 3 "" H 1810 2300 50  0001 C CNN
+	1    1810 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0131
+U 1 1 60AF4EF5
+P 1830 5370
+F 0 "#PWR0131" H 1830 5120 50  0001 C CNN
+F 1 "GND" H 1835 5197 50  0000 C CNN
+F 2 "" H 1830 5370 50  0001 C CNN
+F 3 "" H 1830 5370 50  0001 C CNN
+	1    1830 5370
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0132
+U 1 1 60AF4EF4
+P 2130 6920
+F 0 "#PWR0132" H 2130 6670 50  0001 C CNN
+F 1 "GND" V 2129 6723 50  0000 C CNN
+F 2 "" H 2130 6920 50  0001 C CNN
+F 3 "" H 2130 6920 50  0001 C CNN
+	1    2130 6920
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0133
+U 1 1 60AF4EF3
+P 2150 1600
+F 0 "#PWR0133" H 2150 1350 50  0001 C CNN
+F 1 "GND" V 2150 1406 50  0000 C CNN
+F 2 "" H 2150 1600 50  0001 C CNN
+F 3 "" H 2150 1600 50  0001 C CNN
+	1    2150 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0134
+U 1 1 60AF4EF2
+P 2210 1350
+F 0 "#PWR0134" H 2210 1100 50  0001 C CNN
+F 1 "GND" V 2315 1287 50  0000 C CNN
+F 2 "" H 2210 1350 50  0001 C CNN
+F 3 "" H 2210 1350 50  0001 C CNN
+	1    2210 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0135
+U 1 1 60AF4EF1
+P 2210 1950
+F 0 "#PWR0135" H 2210 1700 50  0001 C CNN
+F 1 "GND" V 2105 1877 50  0000 C CNN
+F 2 "" H 2210 1950 50  0001 C CNN
+F 3 "" H 2210 1950 50  0001 C CNN
+	1    2210 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5C4C63A2
+P 3280 3170
+F 0 "#PWR0107" H 3280 2920 50  0001 C CNN
+F 1 "GND" V 3280 2970 50  0000 C CNN
+F 2 "" H 3280 3170 50  0001 C CNN
+F 3 "" H 3280 3170 50  0001 C CNN
+	1    3280 3170
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5C4B3645
+P 3880 3170
+F 0 "#PWR0104" H 3880 2920 50  0001 C CNN
+F 1 "GND" H 3880 3016 50  0000 C CNN
+F 2 "" H 3880 3170 50  0001 C CNN
+F 3 "" H 3880 3170 50  0001 C CNN
+	1    3880 3170
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0136
+U 1 1 60AF4EF0
+P 4130 3570
+F 0 "#PWR0136" H 4130 3320 50  0001 C CNN
+F 1 "GND" H 4135 3397 50  0000 C CNN
+F 2 "" H 4130 3570 50  0001 C CNN
+F 3 "" H 4130 3570 50  0001 C CNN
+	1    4130 3570
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5C4CED24
+P 4430 3170
+F 0 "#PWR0113" H 4430 2920 50  0001 C CNN
+F 1 "GND" V 4431 2963 50  0000 C CNN
+F 2 "" H 4430 3170 50  0001 C CNN
+F 3 "" H 4430 3170 50  0001 C CNN
+	1    4430 3170
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5C4CB162
+P 4590 1560
+F 0 "#PWR0108" H 4590 1310 50  0001 C CNN
+F 1 "GND" H 4595 1387 50  0000 C CNN
+F 2 "" H 4590 1560 50  0001 C CNN
+F 3 "" H 4590 1560 50  0001 C CNN
+	1    4590 1560
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5C4E7CB4
+P 5130 7270
+F 0 "#PWR0119" H 5130 7020 50  0001 C CNN
+F 1 "GND" H 5135 7097 50  0000 C CNN
+F 2 "" H 5130 7270 50  0001 C CNN
+F 3 "" H 5130 7270 50  0001 C CNN
+	1    5130 7270
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0137
+U 1 1 60AF4EEF
+P 5530 4270
+F 0 "#PWR0137" H 5530 4020 50  0001 C CNN
+F 1 "GND" V 5524 4051 50  0000 C CNN
+F 2 "" H 5530 4270 50  0001 C CNN
+F 3 "" H 5530 4270 50  0001 C CNN
+	1    5530 4270
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0138
+U 1 1 60AF4EEE
+P 5530 6270
+F 0 "#PWR0138" H 5530 6020 50  0001 C CNN
+F 1 "GND" V 5524 6051 50  0000 C CNN
+F 2 "" H 5530 6270 50  0001 C CNN
+F 3 "" H 5530 6270 50  0001 C CNN
+	1    5530 6270
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5C4BFE3E
+P 7150 1960
+F 0 "#PWR0105" H 7150 1710 50  0001 C CNN
+F 1 "GND" H 7155 1787 50  0000 C CNN
+F 2 "" H 7150 1960 50  0001 C CNN
+F 3 "" H 7150 1960 50  0001 C CNN
+	1    7150 1960
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0125
 U 1 1 605FDE52
-P 7200 1000
-F 0 "#PWR0125" H 7200 750 50  0001 C CNN
-F 1 "GND" H 7205 827 50  0000 C CNN
-F 2 "" H 7200 1000 50  0001 C CNN
-F 3 "" H 7200 1000 50  0001 C CNN
-	1    7200 1000
+P 7565 3525
+F 0 "#PWR0125" H 7565 3275 50  0001 C CNN
+F 1 "GND" H 7570 3352 50  0000 C CNN
+F 2 "" H 7565 3525 50  0001 C CNN
+F 3 "" H 7565 3525 50  0001 C CNN
+	1    7565 3525
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 800  7400 800 
-Wire Wire Line
-	7200 1000 7400 1000
-$Comp
-L Connector_Generic:Conn_01x03 J17
-U 1 1 60611535
-P 7600 1400
-F 0 "J17" H 7680 1442 50  0000 L CNN
-F 1 "RGB_IN" H 7680 1351 50  0000 L CNN
-F 2 "arisutea:PinHeader_1x03_P2.54mm_Vertical" H 7600 1400 50  0001 C CNN
-F 3 "~" H 7600 1400 50  0001 C CNN
-	1    7600 1400
-	1    0    0    -1  
-$EndComp
-Text GLabel 7200 1400 0    50   Input ~ 0
-RGB_A
 $Comp
 L power:GND #PWR0127
 U 1 1 6061154A
-P 7200 1500
-F 0 "#PWR0127" H 7200 1250 50  0001 C CNN
-F 1 "GND" H 7205 1327 50  0000 C CNN
-F 2 "" H 7200 1500 50  0001 C CNN
-F 3 "" H 7200 1500 50  0001 C CNN
-	1    7200 1500
+P 7565 4025
+F 0 "#PWR0127" H 7565 3775 50  0001 C CNN
+F 1 "GND" H 7570 3852 50  0000 C CNN
+F 2 "" H 7565 4025 50  0001 C CNN
+F 3 "" H 7565 4025 50  0001 C CNN
+	1    7565 4025
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 1300 7400 1300
-Wire Wire Line
-	7200 1500 7400 1500
-$Comp
-L Connector_Generic:Conn_01x03 J18
-U 1 1 6062103D
-P 7600 1950
-F 0 "J18" H 7680 1992 50  0000 L CNN
-F 1 "RGB_OUT" H 7680 1901 50  0000 L CNN
-F 2 "arisutea:PinHeader_1x03_P2.54mm_Vertical" H 7600 1950 50  0001 C CNN
-F 3 "~" H 7600 1950 50  0001 C CNN
-	1    7600 1950
-	1    0    0    -1  
-$EndComp
-Text GLabel 7200 1950 0    50   Input ~ 0
-RGB_A
 $Comp
 L power:GND #PWR0129
 U 1 1 60621052
-P 7200 2050
-F 0 "#PWR0129" H 7200 1800 50  0001 C CNN
-F 1 "GND" H 7205 1877 50  0000 C CNN
-F 2 "" H 7200 2050 50  0001 C CNN
-F 3 "" H 7200 2050 50  0001 C CNN
-	1    7200 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 1850 7400 1850
-Wire Wire Line
-	7200 2050 7400 2050
-Text GLabel 7200 1300 0    50   Input ~ 0
-RGB_5V
-Text GLabel 7200 1850 0    50   Input ~ 0
-RGB_5V
-Wire Wire Line
-	7200 900  7400 900 
-Wire Wire Line
-	7200 1400 7400 1400
-Wire Wire Line
-	7200 1950 7400 1950
-Text GLabel 6400 6900 2    50   Input ~ 0
-RGB
-Text Label 5600 5450 0    50   ~ 0
-CAPS_L
-Text GLabel 6400 6800 2    50   Input ~ 0
-FN_L
-Text GLabel 6400 6700 2    50   Input ~ 0
-NUM_L
-Text GLabel 6400 6600 2    50   Input ~ 0
-CAPS_L
-Wire Wire Line
-	6050 6600 6400 6600
-Wire Wire Line
-	6050 6700 6400 6700
-Wire Wire Line
-	6050 6800 6400 6800
-Wire Wire Line
-	6050 6900 6400 6900
-$Comp
-L arisutea-pcb-r1:LED LED3
-U 1 1 6064AA9E
-P 9550 1950
-F 0 "LED3" H 9550 1673 50  0000 C CNN
-F 1 "FN_LED" H 9550 1764 50  0000 C CNN
-F 2 "arisutea:LED_IN-S124ARUW" H 9550 1950 50  0001 C CNN
-F 3 "" H 9550 1950 50  0001 C CNN
-	1    9550 1950
-	-1   0    0    1   
-$EndComp
-$Comp
-L arisutea-pcb-r1:LED LED2
-U 1 1 6064BBA2
-P 9550 1450
-F 0 "LED2" H 9550 1173 50  0000 C CNN
-F 1 "CAPS_LOCK" H 9550 1264 50  0000 C CNN
-F 2 "arisutea:LED_IN-S124ARUW" H 9550 1450 50  0001 C CNN
-F 3 "" H 9550 1450 50  0001 C CNN
-	1    9550 1450
-	-1   0    0    1   
-$EndComp
-Text GLabel 8700 1450 0    50   Input ~ 0
-CAPS_L
-$Comp
-L Device:R R8
-U 1 1 60669F17
-P 9050 1450
-F 0 "R8" V 8950 1450 50  0000 C CNN
-F 1 "470" V 9050 1450 50  0000 C CNN
-F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8980 1450 50  0001 C CNN
-F 3 "~" H 9050 1450 50  0001 C CNN
-	1    9050 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 6066AD99
-P 9050 1950
-F 0 "R9" V 8950 1950 50  0000 C CNN
-F 1 "470" V 9050 1950 50  0000 C CNN
-F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8980 1950 50  0001 C CNN
-F 3 "~" H 9050 1950 50  0001 C CNN
-	1    9050 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 6066B154
-P 9050 950
-F 0 "R7" V 8950 950 50  0000 C CNN
-F 1 "470" V 9050 950 50  0000 C CNN
-F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8980 950 50  0001 C CNN
-F 3 "~" H 9050 950 50  0001 C CNN
-	1    9050 950 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8700 1450 8900 1450
-Wire Wire Line
-	8700 950  8900 950 
-Wire Wire Line
-	8700 1950 8900 1950
-Wire Wire Line
-	9200 1450 9400 1450
-Wire Wire Line
-	9200 950  9400 950 
-Wire Wire Line
-	9200 1950 9400 1950
-$Comp
-L power:GND #PWR0126
-U 1 1 606A5571
-P 10100 1450
-F 0 "#PWR0126" H 10100 1200 50  0001 C CNN
-F 1 "GND" H 10105 1277 50  0000 C CNN
-F 2 "" H 10100 1450 50  0001 C CNN
-F 3 "" H 10100 1450 50  0001 C CNN
-	1    10100 1450
+P 7565 4575
+F 0 "#PWR0129" H 7565 4325 50  0001 C CNN
+F 1 "GND" H 7570 4402 50  0000 C CNN
+F 2 "" H 7565 4575 50  0001 C CNN
+F 3 "" H 7565 4575 50  0001 C CNN
+	1    7565 4575
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0128
 U 1 1 606A5CDE
-P 10100 950
-F 0 "#PWR0128" H 10100 700 50  0001 C CNN
-F 1 "GND" H 10105 777 50  0000 C CNN
-F 2 "" H 10100 950 50  0001 C CNN
-F 3 "" H 10100 950 50  0001 C CNN
-	1    10100 950 
+P 8370 5210
+F 0 "#PWR0128" H 8370 4960 50  0001 C CNN
+F 1 "GND" H 8375 5037 50  0000 C CNN
+F 2 "" H 8370 5210 50  0001 C CNN
+F 3 "" H 8370 5210 50  0001 C CNN
+	1    8370 5210
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 606A5571
+P 8370 5710
+F 0 "#PWR0126" H 8370 5460 50  0001 C CNN
+F 1 "GND" H 8375 5537 50  0000 C CNN
+F 2 "" H 8370 5710 50  0001 C CNN
+F 3 "" H 8370 5710 50  0001 C CNN
+	1    8370 5710
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0130
 U 1 1 606A60BB
-P 10100 1950
-F 0 "#PWR0130" H 10100 1700 50  0001 C CNN
-F 1 "GND" H 10105 1777 50  0000 C CNN
-F 2 "" H 10100 1950 50  0001 C CNN
-F 3 "" H 10100 1950 50  0001 C CNN
-	1    10100 1950
+P 8370 6210
+F 0 "#PWR0130" H 8370 5960 50  0001 C CNN
+F 1 "GND" H 8375 6037 50  0000 C CNN
+F 2 "" H 8370 6210 50  0001 C CNN
+F 3 "" H 8370 6210 50  0001 C CNN
+	1    8370 6210
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9700 1450 10100 1450
-Wire Wire Line
-	9700 950  10100 950 
-Wire Wire Line
-	9700 1950 10100 1950
 $Comp
-L arisutea-pcb-r1:LED LED1
-U 1 1 6064C09B
-P 9550 950
-F 0 "LED1" H 9550 673 50  0000 C CNN
-F 1 "NUM_LOCK" H 9550 764 50  0000 C CNN
-F 2 "arisutea:LED_IN-S124ARUW" H 9550 950 50  0001 C CNN
-F 3 "" H 9550 950 50  0001 C CNN
-	1    9550 950 
+L power:GND #PWR0139
+U 1 1 60AF4EEB
+P 8760 1800
+F 0 "#PWR0139" H 8760 1550 50  0001 C CNN
+F 1 "GND" V 8765 1597 50  0000 C CNN
+F 2 "" H 8760 1800 50  0001 C CNN
+F 3 "" H 8760 1800 50  0001 C CNN
+	1    8760 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5C946886
+P 10200 1970
+F 0 "#PWR0120" H 10200 1720 50  0001 C CNN
+F 1 "GND" V 10195 1767 50  0000 C CNN
+F 2 "" H 10200 1970 50  0001 C CNN
+F 3 "" H 10200 1970 50  0001 C CNN
+	1    10200 1970
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arisutea-pcb:Device_Polyfuse_Small F1
+U 1 1 6032001A
+P 5130 2320
+F 0 "F1" V 4925 2320 50  0000 C CNN
+F 1 "500mA" V 5016 2320 50  0000 C CNN
+F 2 "arisutea:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5180 2120 50  0001 L CNN
+F 3 "" H 5130 2320 50  0001 C CNN
+F 4 "C70068" V 5130 2320 50  0001 C CNN "LCSC"
+	1    5130 2320
+	0    1    1    0   
+$EndComp
+$Comp
+L arisutea-pcb:Mechanical_MountingHole H1
+U 1 1 5C583EFC
+P 10440 3550
+F 0 "H1" H 10540 3596 50  0000 L CNN
+F 1 "ThroughHole" H 10540 3505 50  0000 L CNN
+F 2 "arisutea:Generic-Mounthole" H 10440 3550 50  0001 C CNN
+F 3 "~" H 10440 3550 50  0001 C CNN
+	1    10440 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:Mechanical_MountingHole H2
+U 1 1 5C584371
+P 10440 3750
+F 0 "H2" H 10540 3796 50  0000 L CNN
+F 1 "ThroughHole" H 10540 3705 50  0000 L CNN
+F 2 "arisutea:Generic-Mounthole" H 10440 3750 50  0001 C CNN
+F 3 "~" H 10440 3750 50  0001 C CNN
+	1    10440 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:Mechanical_MountingHole H3
+U 1 1 5C59C18D
+P 10440 3950
+F 0 "H3" H 10540 3996 50  0000 L CNN
+F 1 "ThroughHole" H 10540 3905 50  0000 L CNN
+F 2 "arisutea:Generic-Mounthole" H 10440 3950 50  0001 C CNN
+F 3 "~" H 10440 3950 50  0001 C CNN
+	1    10440 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:Mechanical_MountingHole H4
+U 1 1 5C59C1E9
+P 10440 4150
+F 0 "H4" H 10540 4196 50  0000 L CNN
+F 1 "ThroughHole" H 10540 4105 50  0000 L CNN
+F 2 "arisutea:Generic-Mounthole" H 10440 4150 50  0001 C CNN
+F 3 "~" H 10440 4150 50  0001 C CNN
+	1    10440 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:Mechanical_MountingHole H5
+U 1 1 5C59C249
+P 10440 4350
+F 0 "H5" H 10540 4396 50  0000 L CNN
+F 1 "ThroughHole" H 10540 4305 50  0000 L CNN
+F 2 "arisutea:Generic-Mounthole" H 10440 4350 50  0001 C CNN
+F 3 "~" H 10440 4350 50  0001 C CNN
+	1    10440 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:Mechanical_MountingHole H6
+U 1 1 5C59C2A7
+P 10440 4550
+F 0 "H6" H 10540 4596 50  0000 L CNN
+F 1 "ThroughHole" H 10540 4505 50  0000 L CNN
+F 2 "arisutea:Generic-Mounthole" H 10440 4550 50  0001 C CNN
+F 3 "~" H 10440 4550 50  0001 C CNN
+	1    10440 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:Mechanical_MountingHole H7
+U 1 1 5C59C305
+P 10440 4750
+F 0 "H7" H 10540 4796 50  0000 L CNN
+F 1 "ThroughHole" H 10540 4705 50  0000 L CNN
+F 2 "arisutea:Generic-Mounthole" H 10440 4750 50  0001 C CNN
+F 3 "~" H 10440 4750 50  0001 C CNN
+	1    10440 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:Mechanical_MountingHole H8
+U 1 1 5C59C367
+P 10440 4950
+F 0 "H8" H 10540 4996 50  0000 L CNN
+F 1 "ThroughHole" H 10540 4905 50  0000 L CNN
+F 2 "arisutea:Generic-Mounthole" H 10440 4950 50  0001 C CNN
+F 3 "~" H 10440 4950 50  0001 C CNN
+	1    10440 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J12
+U 1 1 5C505CBA
+P 9110 1350
+F 0 "J12" H 9189 1392 50  0000 L CNN
+F 1 "VCC" H 9186 1320 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 9110 1350 50  0001 C CNN
+F 3 "~" H 9110 1350 50  0001 C CNN
+	1    9110 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J13
+U 1 1 5C4E1CA1
+P 9110 1500
+F 0 "J13" H 9189 1542 50  0000 L CNN
+F 1 "D+" H 9205 1474 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 9110 1500 50  0001 C CNN
+F 3 "~" H 9110 1500 50  0001 C CNN
+	1    9110 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J14
+U 1 1 5C4F0ABE
+P 9110 1650
+F 0 "J14" H 9189 1692 50  0000 L CNN
+F 1 "D-" H 9204 1625 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 9110 1650 50  0001 C CNN
+F 3 "~" H 9110 1650 50  0001 C CNN
+	1    9110 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J15
+U 1 1 5C505D0A
+P 9110 1800
+F 0 "J15" H 9189 1842 50  0000 L CNN
+F 1 "GND" H 9181 1767 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 9110 1800 50  0001 C CNN
+F 3 "~" H 9110 1800 50  0001 C CNN
+	1    9110 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5C90B624
+P 9650 1220
+F 0 "J2" H 9800 1170 50  0000 C CNN
+F 1 "MISO" H 9800 1250 50  0000 C CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 9650 1220 50  0001 C CNN
+F 3 "~" H 9650 1220 50  0001 C CNN
+	1    9650 1220
 	-1   0    0    1   
 $EndComp
-Text GLabel 8700 1950 0    50   Input ~ 0
-NUM_L
-Text GLabel 8700 950  0    50   Input ~ 0
-FN_L
 $Comp
-L arisutea-pcb-r1:LOGO LOGO3
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5C90B878
+P 9650 1370
+F 0 "J3" H 9800 1330 50  0000 C CNN
+F 1 "+5V" H 9800 1400 50  0000 C CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 9650 1370 50  0001 C CNN
+F 3 "~" H 9650 1370 50  0001 C CNN
+	1    9650 1370
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5C90BFC6
+P 9650 1520
+F 0 "J4" H 9800 1490 50  0000 C CNN
+F 1 "SCLK" H 9800 1550 50  0000 C CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 9650 1520 50  0001 C CNN
+F 3 "~" H 9650 1520 50  0001 C CNN
+	1    9650 1520
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5C90C00A
+P 9650 1670
+F 0 "J5" H 9800 1640 50  0000 C CNN
+F 1 "MOSI" H 9800 1700 50  0000 C CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 9650 1670 50  0001 C CNN
+F 3 "~" H 9650 1670 50  0001 C CNN
+	1    9650 1670
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5C90C19E
+P 9650 1820
+F 0 "J6" H 9800 1780 50  0000 C CNN
+F 1 "~RES~" H 9800 1850 50  0000 C CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 9650 1820 50  0001 C CNN
+F 3 "~" H 9650 1820 50  0001 C CNN
+	1    9650 1820
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5C90C1E8
+P 9650 1970
+F 0 "J7" H 9800 1940 50  0000 C CNN
+F 1 "GND" H 9800 2010 50  0000 C CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 9650 1970 50  0001 C CNN
+F 3 "~" H 9650 1970 50  0001 C CNN
+	1    9650 1970
+	-1   0    0    1   
+$EndComp
+$Comp
+L arisutea-pcb:Device_R R5
+U 1 1 60AF4EE7
+P 1960 1350
+F 0 "R5" V 1860 1350 50  0000 C CNN
+F 1 "5k1" V 1960 1350 50  0000 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1890 1350 50  0001 C CNN
+F 3 "~" H 1960 1350 50  0001 C CNN
+F 4 "C27834" H 1960 1350 50  0001 C CNN "LCSC"
+	1    1960 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L arisutea-pcb:Device_R R6
+U 1 1 60AF4EE8
+P 1960 1950
+F 0 "R6" V 1860 1950 50  0000 C CNN
+F 1 "5k1" V 1960 1950 50  0000 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1890 1950 50  0001 C CNN
+F 3 "~" H 1960 1950 50  0001 C CNN
+F 4 "C27834" H 1960 1950 50  0001 C CNN "LCSC"
+	1    1960 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L arisutea-pcb:Device_R R2
+U 1 1 60AF4EE9
+P 3170 1100
+F 0 "R2" V 3070 1100 50  0000 C CNN
+F 1 "22" V 3170 1100 50  0000 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3100 1100 50  0001 C CNN
+F 3 "~" H 3170 1100 50  0001 C CNN
+F 4 "C17561" H 3170 1100 50  0001 C CNN "LCSC"
+	1    3170 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L arisutea-pcb:Device_R R1
+U 1 1 60AF4EEA
+P 3170 2100
+F 0 "R1" V 3270 2100 50  0000 C CNN
+F 1 "22" V 3170 2100 50  0000 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3100 2100 50  0001 C CNN
+F 3 "~" H 3170 2100 50  0001 C CNN
+F 4 "C17561" H 3170 2100 50  0001 C CNN "LCSC"
+	1    3170 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L arisutea-pcb:Device_R R4
+U 1 1 5C4E7AD8
+P 5130 7070
+F 0 "R4" H 5200 7066 50  0000 L CNN
+F 1 "10K" V 5131 6998 50  0000 L CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5060 7070 50  0001 C CNN
+F 3 "~" H 5130 7070 50  0001 C CNN
+F 4 "C17414" H 5130 7070 50  0001 C CNN "LCSC"
+	1    5130 7070
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 6066B154
+P 7680 5210
+F 0 "R7" V 7580 5210 50  0000 C CNN
+F 1 "470" V 7680 5210 50  0000 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7610 5210 50  0001 C CNN
+F 3 "" H 7680 5210 50  0001 C CNN
+F 4 "C27834" V 7680 5210 50  0001 C CNN "LCSC"
+	1    7680 5210
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 60669F17
+P 7680 5710
+F 0 "R8" V 7580 5710 50  0000 C CNN
+F 1 "470" V 7680 5710 50  0000 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7610 5710 50  0001 C CNN
+F 3 "" H 7680 5710 50  0001 C CNN
+F 4 "C27834" V 7680 5710 50  0001 C CNN "LCSC"
+	1    7680 5710
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 6066AD99
+P 7680 6210
+F 0 "R9" V 7580 6210 50  0000 C CNN
+F 1 "470" V 7680 6210 50  0000 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7610 6210 50  0001 C CNN
+F 3 "" H 7680 6210 50  0001 C CNN
+F 4 "C27834" V 7680 6210 50  0001 C CNN "LCSC"
+	1    7680 6210
+	0    1    1    0   
+$EndComp
+$Comp
+L arisutea-pcb:Device_C_Small C6
+U 1 1 5C4D6747
+P 1680 4770
+F 0 "C6" V 1560 4716 50  0000 L CNN
+F 1 "0.1uF" V 1484 4658 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1680 4770 50  0001 C CNN
+F 3 "~" H 1680 4770 50  0001 C CNN
+F 4 "C28233" H 1680 4770 50  0001 C CNN "LCSC"
+	1    1680 4770
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arisutea-pcb:Device_C_Small C8
+U 1 1 5C4DA48C
+P 1680 5120
+F 0 "C8" V 1565 5068 50  0000 L CNN
+F 1 "0.1uF" V 1489 5013 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1680 5120 50  0001 C CNN
+F 3 "~" H 1680 5120 50  0001 C CNN
+F 4 "C28233" H 1680 5120 50  0001 C CNN "LCSC"
+	1    1680 5120
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arisutea-pcb:Device_C_Small C9
+U 1 1 5C4DEEC8
+P 2230 7070
+F 0 "C9" H 2302 7117 50  0000 L CNN
+F 1 "0.1uF" H 2293 7027 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2230 7070 50  0001 C CNN
+F 3 "~" H 2230 7070 50  0001 C CNN
+F 4 "C28233" H 2230 7070 50  0001 C CNN "LCSC"
+	1    2230 7070
+	-1   0    0    1   
+$EndComp
+$Comp
+L arisutea-pcb:Device_C_Small C7
+U 1 1 5C4DEE57
+P 2630 7070
+F 0 "C7" H 2700 7111 50  0000 L CNN
+F 1 "0.1uF" H 2684 7024 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2630 7070 50  0001 C CNN
+F 3 "~" H 2630 7070 50  0001 C CNN
+F 4 "C28233" H 2630 7070 50  0001 C CNN "LCSC"
+	1    2630 7070
+	-1   0    0    1   
+$EndComp
+$Comp
+L arisutea-pcb:Device_C_Small C3
+U 1 1 5C4C2975
+P 3480 3170
+F 0 "C3" V 3670 3119 50  0000 L CNN
+F 1 "10uF" V 3595 3075 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3480 3170 50  0001 C CNN
+F 3 "~" H 3480 3170 50  0001 C CNN
+F 4 "C15850" H 3480 3170 50  0001 C CNN "LCSC"
+	1    3480 3170
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arisutea-pcb:Device_C_Small C4
+U 1 1 5C4B33F7
+P 3880 3470
+F 0 "C4" H 3753 3390 50  0000 L CNN
+F 1 "1uF (±10%)" V 3974 3269 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3880 3470 50  0001 C CNN
+F 3 "~" H 3880 3470 50  0001 C CNN
+F 4 "C28323" H 3880 3470 50  0001 C CNN "LCSC"
+	1    3880 3470
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:Device_C_Small C5
+U 1 1 5C4D647D
+P 4730 3170
+F 0 "C5" V 4916 3119 50  0000 L CNN
+F 1 "1uF" V 4837 3095 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4730 3170 50  0001 C CNN
+F 3 "~" H 4730 3170 50  0001 C CNN
+F 4 "C28323" H 4730 3170 50  0001 C CNN "LCSC"
+	1    4730 3170
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arisutea-pcb:Device_C_Small C1
+U 1 1 5C4BFB4D
+P 6800 1710
+F 0 "C1" H 6686 1664 50  0000 R CNN
+F 1 "22pF" H 6686 1755 50  0000 R CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6800 1710 50  0001 C CNN
+F 3 "~" H 6800 1710 50  0001 C CNN
+F 4 "C1804" H 6800 1710 50  0001 C CNN "LCSC"
+	1    6800 1710
+	1    0    0    1   
+$EndComp
+$Comp
+L arisutea-pcb:Device_C_Small C2
+U 1 1 5C4BFC59
+P 7500 1710
+F 0 "C2" H 7615 1756 50  0000 L CNN
+F 1 "22pF" H 7615 1665 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7500 1710 50  0001 C CNN
+F 3 "~" H 7500 1710 50  0001 C CNN
+F 4 "C1804" H 7500 1710 50  0001 C CNN "LCSC"
+	1    7500 1710
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:Switch_SW_Push SWR1
+U 1 1 5C4CA743
+P 4840 1510
+F 0 "SWR1" H 4840 1795 50  0000 C CNN
+F 1 "SW_Push" H 4840 1704 50  0000 C CNN
+F 2 "arisutea:SW_SPST_TL3342" H 4840 1710 50  0001 C CNN
+F 3 "" H 4840 1710 50  0001 C CNN
+F 4 "C318884" H 4840 1510 50  0001 C CNN "LCSC"
+	1    4840 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:LED LED1
+U 1 1 6064C09B
+P 8030 5210
+F 0 "LED1" H 8030 4933 50  0000 C CNN
+F 1 "NUM_LOCK" H 8030 5024 50  0000 C CNN
+F 2 "arisutea:LED_IN-S124ARUW" H 8030 5210 50  0001 C CNN
+F 3 "" H 8030 5210 50  0001 C CNN
+F 4 "C401114" H 8030 5210 50  0001 C CNN "LCSC"
+	1    8030 5210
+	-1   0    0    1   
+$EndComp
+$Comp
+L arisutea-pcb:LED LED2
+U 1 1 6064BBA2
+P 8030 5710
+F 0 "LED2" H 8030 5433 50  0000 C CNN
+F 1 "CAPS_LOCK" H 8030 5524 50  0000 C CNN
+F 2 "arisutea:LED_IN-S124ARUW" H 8030 5710 50  0001 C CNN
+F 3 "" H 8030 5710 50  0001 C CNN
+F 4 "C401114" H 8030 5710 50  0001 C CNN "LCSC"
+	1    8030 5710
+	-1   0    0    1   
+$EndComp
+$Comp
+L arisutea-pcb:LED LED3
+U 1 1 6064AA9E
+P 8030 6210
+F 0 "LED3" H 8030 5933 50  0000 C CNN
+F 1 "FN_LED" H 8030 6024 50  0000 C CNN
+F 2 "arisutea:LED_IN-S124ARUW" H 8030 6210 50  0001 C CNN
+F 3 "" H 8030 6210 50  0001 C CNN
+F 4 "C401114" H 8030 6210 50  0001 C CNN "LCSC"
+	1    8030 6210
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J16
+U 1 1 605F9602
+P 7965 3425
+F 0 "J16" H 8045 3467 50  0000 L CNN
+F 1 "RGB" H 8045 3376 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x03_P2.54mm_Vertical" H 7965 3425 50  0001 C CNN
+F 3 "~" H 7965 3425 50  0001 C CNN
+	1    7965 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J17
+U 1 1 60611535
+P 7965 3925
+F 0 "J17" H 8045 3967 50  0000 L CNN
+F 1 "RGB_IN" H 8045 3876 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x03_P2.54mm_Vertical" H 7965 3925 50  0001 C CNN
+F 3 "~" H 7965 3925 50  0001 C CNN
+	1    7965 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J18
+U 1 1 6062103D
+P 7965 4475
+F 0 "J18" H 8045 4517 50  0000 L CNN
+F 1 "RGB_OUT" H 8045 4426 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x03_P2.54mm_Vertical" H 7965 4475 50  0001 C CNN
+F 3 "~" H 7965 4475 50  0001 C CNN
+	1    7965 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:LOGO LOGO1
+U 1 1 6042E29E
+P 9110 6260
+F 0 "LOGO1" H 9110 6480 50  0000 C CNN
+F 1 "arisutea_logo" H 9185 6634 50  0001 C CNN
+F 2 "arisutea:arisutea_logo" H 9110 6610 50  0001 C CNN
+F 3 "" H 9110 6610 50  0001 C CNN
+	1    9110 6260
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:LOGO LOGO2
+U 1 1 605B7585
+P 9460 6260
+F 0 "LOGO2" H 9460 6480 50  0000 C CNN
+F 1 "arisutea_logo" H 9535 6634 50  0001 C CNN
+F 2 "arisutea:arisutea_logo" H 9460 6610 50  0001 C CNN
+F 3 "" H 9460 6610 50  0001 C CNN
+	1    9460 6260
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:LOGO LOGO3
 U 1 1 6062F214
-P 9400 6100
-F 0 "LOGO3" H 9400 6300 50  0000 C CNN
-F 1 "QMK Logo" H 9475 6474 50  0001 C CNN
-F 2 "arisutea:OSHW-Logo_11.4x12mm_SilkScreen" H 9400 6450 50  0001 C CNN
-F 3 "" H 9400 6450 50  0001 C CNN
-	1    9400 6100
+P 9810 6260
+F 0 "LOGO3" H 9810 6480 50  0000 C CNN
+F 1 "QMK Logo" H 9885 6634 50  0001 C CNN
+F 2 "arisutea:OSHW-Logo_11.4x12mm_SilkScreen" H 9810 6610 50  0001 C CNN
+F 3 "" H 9810 6610 50  0001 C CNN
+	1    9810 6260
 	1    0    0    -1  
 $EndComp
 $Comp
-L arisutea-pcb-r1:LOGO LOGO4
+L arisutea-pcb:LOGO LOGO4
 U 1 1 6062F624
-P 9750 6100
-F 0 "LOGO4" H 9750 6300 50  0000 C CNN
-F 1 "QMK Logo" H 9825 6474 50  0001 C CNN
-F 2 "arisutea:OSHW-Logo_11.4x12mm_SilkScreen" H 9750 6450 50  0001 C CNN
-F 3 "" H 9750 6450 50  0001 C CNN
-	1    9750 6100
+P 10160 6260
+F 0 "LOGO4" H 10160 6480 50  0000 C CNN
+F 1 "QMK Logo" H 10235 6634 50  0001 C CNN
+F 2 "arisutea:OSHW-Logo_11.4x12mm_SilkScreen" H 10160 6610 50  0001 C CNN
+F 3 "" H 10160 6610 50  0001 C CNN
+	1    10160 6260
 	1    0    0    -1  
 $EndComp
 $Comp
-L arisutea-pcb-r1:LOGO LOGO5
+L arisutea-pcb:LOGO LOGO5
 U 1 1 6063AB78
-P 10100 6100
-F 0 "LOGO5" H 10100 6300 50  0000 C CNN
-F 1 "QMK_Logo_Light" H 10175 6474 50  0001 C CNN
-F 2 "arisutea:QMK_Logo_Light" H 10100 6450 50  0001 C CNN
-F 3 "" H 10100 6450 50  0001 C CNN
-	1    10100 6100
+P 10510 6260
+F 0 "LOGO5" H 10510 6480 50  0000 C CNN
+F 1 "QMK_Logo_Light" H 10585 6634 50  0001 C CNN
+F 2 "arisutea:QMK_Logo_Light" H 10510 6610 50  0001 C CNN
+F 3 "" H 10510 6610 50  0001 C CNN
+	1    10510 6260
 	1    0    0    -1  
 $EndComp
 $Comp
-L arisutea-pcb-r1:LOGO LOGO6
+L arisutea-pcb:LOGO LOGO6
 U 1 1 6063AEC9
-P 10450 6100
-F 0 "LOGO6" H 10450 6300 50  0000 C CNN
-F 1 "QMK_Logo_Light" H 10525 6474 50  0001 C CNN
-F 2 "arisutea:QMK_Logo_Light" H 10450 6450 50  0001 C CNN
-F 3 "" H 10450 6450 50  0001 C CNN
-	1    10450 6100
+P 10860 6260
+F 0 "LOGO6" H 10860 6480 50  0000 C CNN
+F 1 "QMK_Logo_Light" H 10935 6634 50  0001 C CNN
+F 2 "arisutea:QMK_Logo_Light" H 10860 6610 50  0001 C CNN
+F 3 "" H 10860 6610 50  0001 C CNN
+	1    10860 6260
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	6200 2700 6200 3150
-Wire Bus Line
-	4000 700  4000 2100
-Wire Bus Line
-	5950 5350 5950 7100
-Wire Bus Line
-	7500 2650 7500 5800
-Wire Bus Line
-	7200 2750 7200 5800
+$Comp
+L arisutea-pcb:Device_Crystal_GND24 Y1
+U 1 1 5C4BFA85
+P 7150 1560
+F 0 "Y1" H 7100 1910 50  0000 L CNN
+F 1 "Crystal_GND24" H 6900 1810 50  0000 L CNN
+F 2 "arisutea:Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering" H 7150 1560 50  0001 C CNN
+F 3 "" H 7150 1560 50  0001 C CNN
+F 4 "C89371" H 7150 1560 50  0001 C CNN "LCSC"
+	1    7150 1560
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:USB_HRO-TYPE-C-31-M-12 USB1
+U 1 1 60AF4EEC
+P 1550 1600
+F 0 "USB1" H 1383 2348 60  0000 C CNN
+F 1 "USB_C_HRO-TYPE-C-31-M-12" V 1053 1552 60  0000 C CNN
+F 2 "arisutea:USB_C_Receptacle_HRO_TYPE-C-31-M-12-HandSoldering" H 1550 1600 60  0001 C CNN
+F 3 "" H 1550 1600 60  0001 C CNN
+F 4 "C319148" H 1550 1600 50  0001 C CNN "LCSC"
+	1    1550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb:USBLC6-2SC6-Power_Protection U1
+U 1 1 60AF4EED
+P 2730 1600
+F 0 "U1" V 2930 1970 50  0000 C CNN
+F 1 "USBLC6-2SC6" V 3010 2190 50  0000 C CNN
+F 2 "arisutea:SOT-23-6_Handsoldering" H 1980 2000 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 2930 1950 50  0001 C CNN
+F 4 "C7519" H 2730 1600 50  0001 C CNN "LCSC"
+	1    2730 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L arisutea-pcb:ATmega32U4-AU-MCU_Microchip_ATmega U2
+U 1 1 60AF4EF7
+P 3880 5270
+F 0 "U2" V 3830 5170 79  0000 L CNB
+F 1 "ATMEGA32U4_QFN44" V 3630 4670 79  0000 L CNB
+F 2 "arisutea:TQFP-44_10x10mm_P0.8mm" H 3880 5270 50  0001 C CNN
+F 3 "" H 3880 5270 50  0001 C CNN
+F 4 "C44854" V 3880 5270 50  0001 C CNN "LCSC"
+	1    3880 5270
+	0    1    1    0   
+$EndComp
+$Sheet
+S 9160 3050 800  2350
+U 5C4EF302
+F0 "matrix" 50
+F1 "matrix.sch" 50
+F2 "row0" T L 9160 3200 50 
+F3 "row1" T L 9160 3300 50 
+F4 "row2" T L 9160 3400 50 
+F5 "row3" T L 9160 3500 50 
+F6 "row4" T L 9160 3600 50 
+F7 "col0" T L 9160 3800 50 
+F8 "col1" T L 9160 3900 50 
+F9 "col2" T L 9160 4000 50 
+F10 "col3" T L 9160 4100 50 
+F11 "col4" T L 9160 4200 50 
+F12 "col5" T L 9160 4300 50 
+F13 "col6" T L 9160 4400 50 
+F14 "col7" T L 9160 4500 50 
+F15 "col8" T L 9160 4600 50 
+F16 "col9" T L 9160 4700 50 
+F17 "col10" T L 9160 4800 50 
+F18 "col11" T L 9160 4900 50 
+F19 "col12" T L 9160 5000 50 
+F20 "col13" T L 9160 5100 50 
+F21 "col14" T L 9160 5200 50 
+$EndSheet
+Wire Notes Line
+	480  2560 11220 2560
+Wire Notes Line
+	8590 5640 11220 5640
+$Comp
+L arisutea-pcb:Device_R R3
+U 1 1 5C4CB1B6
+P 5190 1310
+F 0 "R3" H 5260 1356 50  0000 L CNN
+F 1 "10K" V 5190 1260 50  0000 L CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5120 1310 50  0001 C CNN
+F 3 "~" H 5190 1310 50  0001 C CNN
+F 4 "C17414" H 5190 1310 50  0001 C CNN "LCSC"
+	1    5190 1310
+	1    0    0    -1  
+$EndComp
+Text Notes 7475 2925 2    100  Italic 20
+LEDs
+Text Notes 9725 2925 2    100  Italic 20
+Switch Matrix
+Text Notes 9175 5925 2    100  Italic 20
+Logos
+Text Notes 10325 3075 0    100  Italic 20
+Mounting\nHoles
 $EndSCHEMATC

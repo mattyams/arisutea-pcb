@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:arisutea-pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title "Arisutea Keyboard"
-Date "2021-05-04"
-Rev "0.6.2"
-Comp "3x6 Design"
+Date "2021-05-22"
+Rev "1.0"
+Comp "mattyams"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -55,7 +54,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 5050 4050 5050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW2
+L arisutea-pcb:Switch_SW_Keeb SW2
 U 1 1 5C520197
 P 3850 4700
 F 0 "SW2" H 3850 4985 50  0000 C CNN
@@ -66,7 +65,7 @@ F 3 "" H 3850 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D2
+L arisutea-pcb:Device_D D2
 U 1 1 5C520209
 P 4050 4850
 F 0 "D2" V 4100 5050 50  0000 R CNN
@@ -82,7 +81,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 4000 4050 4050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW7
+L arisutea-pcb:Switch_SW_Keeb SW7
 U 1 1 5C5205B0
 P 4850 4700
 F 0 "SW7" H 4850 4985 50  0000 C CNN
@@ -93,7 +92,7 @@ F 3 "" H 4850 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D7
+L arisutea-pcb:Device_D D7
 U 1 1 5C5205D6
 P 5050 4850
 F 0 "D7" V 5100 5050 50  0000 R CNN
@@ -107,7 +106,7 @@ $EndComp
 Wire Wire Line
 	5050 5000 5050 5050
 $Comp
-L Device:D D3
+L arisutea-pcb:Device_D D3
 U 1 1 5C5209FE
 P 4050 5900
 F 0 "D3" V 4100 6100 50  0000 R CNN
@@ -126,7 +125,7 @@ Connection ~ 4050 6100
 Wire Wire Line
 	4050 6100 5050 6100
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW8
+L arisutea-pcb:Switch_SW_Keeb SW8
 U 1 1 5C52365C
 P 4850 5750
 F 0 "SW8" H 4850 6035 50  0000 C CNN
@@ -137,7 +136,7 @@ F 3 "" H 4850 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D8
+L arisutea-pcb:Device_D D8
 U 1 1 5C52372A
 P 5050 5900
 F 0 "D8" V 5100 6100 50  0000 R CNN
@@ -155,7 +154,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 2850 3650 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW11
+L arisutea-pcb:Switch_SW_Keeb SW11
 U 1 1 5C63DB01
 P 5500 4700
 F 0 "SW11" H 5500 4985 50  0000 C CNN
@@ -166,7 +165,7 @@ F 3 "" H 5500 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D11
+L arisutea-pcb:Device_D D11
 U 1 1 5C63DB08
 P 5700 4850
 F 0 "D11" V 5750 5050 50  0000 R CNN
@@ -180,7 +179,7 @@ $EndComp
 Wire Wire Line
 	5700 5000 5700 5050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW12
+L arisutea-pcb:Switch_SW_Keeb SW12
 U 1 1 5C63DB13
 P 5500 5750
 F 0 "SW12" H 5500 6035 50  0000 C CNN
@@ -191,7 +190,7 @@ F 3 "" H 5500 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D12
+L arisutea-pcb:Device_D D12
 U 1 1 5C63DB29
 P 5700 5900
 F 0 "D12" V 5750 6100 50  0000 R CNN
@@ -207,7 +206,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 4000 5700 4050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW16
+L arisutea-pcb:Switch_SW_Keeb SW16
 U 1 1 5C63E35C
 P 6150 4700
 F 0 "SW16" H 6150 4985 50  0000 C CNN
@@ -218,7 +217,7 @@ F 3 "" H 6150 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D16
+L arisutea-pcb:Device_D D16
 U 1 1 5C63E363
 P 6350 4850
 F 0 "D16" V 6400 5050 50  0000 R CNN
@@ -232,7 +231,7 @@ $EndComp
 Wire Wire Line
 	6350 5000 6350 5050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW17
+L arisutea-pcb:Switch_SW_Keeb SW17
 U 1 1 5C63E36E
 P 6150 5750
 F 0 "SW17" H 6150 6035 50  0000 C CNN
@@ -243,7 +242,7 @@ F 3 "" H 6150 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D17
+L arisutea-pcb:Device_D D17
 U 1 1 5C63E384
 P 6350 5900
 F 0 "D17" V 6400 6100 50  0000 R CNN
@@ -259,7 +258,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 4000 6350 4050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW20
+L arisutea-pcb:Switch_SW_Keeb SW20
 U 1 1 5C63F117
 P 6800 4700
 F 0 "SW20" H 6800 4985 50  0000 C CNN
@@ -270,7 +269,7 @@ F 3 "" H 6800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D20
+L arisutea-pcb:Device_D D20
 U 1 1 5C63F11E
 P 7000 4850
 F 0 "D20" V 7050 5050 50  0000 R CNN
@@ -284,7 +283,7 @@ $EndComp
 Wire Wire Line
 	7000 5000 7000 5050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW21
+L arisutea-pcb:Switch_SW_Keeb SW21
 U 1 1 5C63F129
 P 6800 5750
 F 0 "SW21" H 6800 6035 50  0000 C CNN
@@ -295,7 +294,7 @@ F 3 "" H 6800 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D21
+L arisutea-pcb:Device_D D21
 U 1 1 5C63F13F
 P 7000 5900
 F 0 "D21" V 7050 6100 50  0000 R CNN
@@ -311,7 +310,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 4000 7000 4050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW25
+L arisutea-pcb:Switch_SW_Keeb SW25
 U 1 1 5C6405F9
 P 7450 4700
 F 0 "SW25" H 7450 4985 50  0000 C CNN
@@ -322,7 +321,7 @@ F 3 "" H 7450 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D25
+L arisutea-pcb:Device_D D25
 U 1 1 5C640600
 P 7650 4850
 F 0 "D25" V 7700 5050 50  0000 R CNN
@@ -336,7 +335,7 @@ $EndComp
 Wire Wire Line
 	7650 5000 7650 5050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW26
+L arisutea-pcb:Switch_SW_Keeb SW26
 U 1 1 5C64060B
 P 7450 5750
 F 0 "SW26" H 7450 6035 50  0000 C CNN
@@ -347,7 +346,7 @@ F 3 "" H 7450 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D26
+L arisutea-pcb:Device_D D26
 U 1 1 5C640621
 P 7650 5900
 F 0 "D26" V 7700 6100 50  0000 R CNN
@@ -363,7 +362,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 4000 7650 4050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW30
+L arisutea-pcb:Switch_SW_Keeb SW30
 U 1 1 5C64247D
 P 8100 4700
 F 0 "SW30" H 8100 4985 50  0000 C CNN
@@ -374,7 +373,7 @@ F 3 "" H 8100 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D30
+L arisutea-pcb:Device_D D30
 U 1 1 5C642484
 P 8300 4850
 F 0 "D30" V 8350 5050 50  0000 R CNN
@@ -388,7 +387,7 @@ $EndComp
 Wire Wire Line
 	8300 5000 8300 5050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW31
+L arisutea-pcb:Switch_SW_Keeb SW31
 U 1 1 5C64248F
 P 8100 5750
 F 0 "SW31" H 8100 6035 50  0000 C CNN
@@ -399,7 +398,7 @@ F 3 "" H 8100 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D31
+L arisutea-pcb:Device_D D31
 U 1 1 5C6424A5
 P 8300 5900
 F 0 "D31" V 8350 6100 50  0000 R CNN
@@ -415,7 +414,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 4000 8300 4050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW34
+L arisutea-pcb:Switch_SW_Keeb SW34
 U 1 1 5C644B72
 P 8750 4700
 F 0 "SW34" H 8750 4985 50  0000 C CNN
@@ -426,7 +425,7 @@ F 3 "" H 8750 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D34
+L arisutea-pcb:Device_D D34
 U 1 1 5C644B79
 P 8950 4850
 F 0 "D34" V 9000 5050 50  0000 R CNN
@@ -440,7 +439,7 @@ $EndComp
 Wire Wire Line
 	8950 5000 8950 5050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW35
+L arisutea-pcb:Switch_SW_Keeb SW35
 U 1 1 5C644B84
 P 8750 5750
 F 0 "SW35" H 8750 6035 50  0000 C CNN
@@ -451,7 +450,7 @@ F 3 "" H 8750 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D35
+L arisutea-pcb:Device_D D35
 U 1 1 5C644B9A
 P 8950 5900
 F 0 "D35" V 9000 6100 50  0000 R CNN
@@ -467,7 +466,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 4000 8950 4050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW39
+L arisutea-pcb:Switch_SW_Keeb SW39
 U 1 1 5C647DDF
 P 9400 4700
 F 0 "SW39" H 9400 4985 50  0000 C CNN
@@ -478,7 +477,7 @@ F 3 "" H 9400 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D39
+L arisutea-pcb:Device_D D39
 U 1 1 5C647DE6
 P 9600 4850
 F 0 "D39" V 9650 5050 50  0000 R CNN
@@ -492,7 +491,7 @@ $EndComp
 Wire Wire Line
 	9600 5000 9600 5050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW40
+L arisutea-pcb:Switch_SW_Keeb SW40
 U 1 1 5C647DF1
 P 9400 5750
 F 0 "SW40" H 9400 6035 50  0000 C CNN
@@ -503,7 +502,7 @@ F 3 "" H 9400 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D40
+L arisutea-pcb:Device_D D40
 U 1 1 5C647E07
 P 9600 5900
 F 0 "D40" V 9650 6100 50  0000 R CNN
@@ -519,7 +518,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 4000 9600 4050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW43
+L arisutea-pcb:Switch_SW_Keeb SW43
 U 1 1 5C64BD3B
 P 10050 4700
 F 0 "SW43" H 10050 4985 50  0000 C CNN
@@ -530,7 +529,7 @@ F 3 "" H 10050 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D43
+L arisutea-pcb:Device_D D43
 U 1 1 5C64BD42
 P 10250 4850
 F 0 "D43" V 10300 5050 50  0000 R CNN
@@ -544,7 +543,7 @@ $EndComp
 Wire Wire Line
 	10250 5000 10250 5050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW44
+L arisutea-pcb:Switch_SW_Keeb SW44
 U 1 1 5C64BD4D
 P 10050 5750
 F 0 "SW44" H 10050 6035 50  0000 C CNN
@@ -555,7 +554,7 @@ F 3 "" H 10050 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D44
+L arisutea-pcb:Device_D D44
 U 1 1 5C64BD63
 P 10250 5900
 F 0 "D44" V 10300 6100 50  0000 R CNN
@@ -571,7 +570,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 4000 10250 4050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW48
+L arisutea-pcb:Switch_SW_Keeb SW48
 U 1 1 5C650AAD
 P 10700 4700
 F 0 "SW48" H 10700 4985 50  0000 C CNN
@@ -582,7 +581,7 @@ F 3 "" H 10700 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D48
+L arisutea-pcb:Device_D D48
 U 1 1 5C650AB4
 P 10900 4850
 F 0 "D48" V 10950 5050 50  0000 R CNN
@@ -596,7 +595,7 @@ $EndComp
 Wire Wire Line
 	10900 5000 10900 5050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW49
+L arisutea-pcb:Switch_SW_Keeb SW49
 U 1 1 5C650ABF
 P 10700 5750
 F 0 "SW49" H 10700 6035 50  0000 C CNN
@@ -607,7 +606,7 @@ F 3 "" H 10700 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D49
+L arisutea-pcb:Device_D D49
 U 1 1 5C650AD5
 P 10900 5900
 F 0 "D49" V 10950 6100 50  0000 R CNN
@@ -623,7 +622,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 4000 10900 4050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW52
+L arisutea-pcb:Switch_SW_Keeb SW52
 U 1 1 5C6567D4
 P 11350 4700
 F 0 "SW52" H 11350 4985 50  0000 C CNN
@@ -634,7 +633,7 @@ F 3 "" H 11350 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D52
+L arisutea-pcb:Device_D D52
 U 1 1 5C6567DB
 P 11550 4850
 F 0 "D52" V 11600 5050 50  0000 R CNN
@@ -648,7 +647,7 @@ $EndComp
 Wire Wire Line
 	11550 5000 11550 5050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW53
+L arisutea-pcb:Switch_SW_Keeb SW53
 U 1 1 5C6567E6
 P 11350 5750
 F 0 "SW53" H 11350 6035 50  0000 C CNN
@@ -659,7 +658,7 @@ F 3 "" H 11350 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D53
+L arisutea-pcb:Device_D D53
 U 1 1 5C6567FC
 P 11550 5900
 F 0 "D53" V 11600 6100 50  0000 R CNN
@@ -675,7 +674,7 @@ Wire Wire Line
 Wire Wire Line
 	11550 4000 11550 4050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW56
+L arisutea-pcb:Switch_SW_Keeb SW56
 U 1 1 5C65D613
 P 12000 4700
 F 0 "SW56" H 12000 4985 50  0000 C CNN
@@ -686,7 +685,7 @@ F 3 "" H 12000 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D56
+L arisutea-pcb:Device_D D56
 U 1 1 5C65D61A
 P 12200 4850
 F 0 "D56" V 12250 5050 50  0000 R CNN
@@ -700,7 +699,7 @@ $EndComp
 Wire Wire Line
 	12200 5000 12200 5050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW57
+L arisutea-pcb:Switch_SW_Keeb SW57
 U 1 1 5C65D625
 P 12000 5750
 F 0 "SW57" H 12000 6035 50  0000 C CNN
@@ -711,7 +710,7 @@ F 3 "" H 12000 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D57
+L arisutea-pcb:Device_D D57
 U 1 1 5C65D63B
 P 12200 5900
 F 0 "D57" V 12250 6100 50  0000 R CNN
@@ -727,7 +726,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 4000 12200 4050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW60
+L arisutea-pcb:Switch_SW_Keeb SW60
 U 1 1 5C6656F5
 P 12650 4700
 F 0 "SW60" H 12650 4985 50  0000 C CNN
@@ -738,7 +737,7 @@ F 3 "" H 12650 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D60
+L arisutea-pcb:Device_D D60
 U 1 1 5C6656FC
 P 12850 4850
 F 0 "D60" V 12900 5050 50  0000 R CNN
@@ -754,7 +753,7 @@ Wire Wire Line
 Wire Wire Line
 	12850 4000 12850 4050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW63
+L arisutea-pcb:Switch_SW_Keeb SW63
 U 1 1 5C66EC7D
 P 13300 4700
 F 0 "SW63" H 13300 4985 50  0000 C CNN
@@ -765,7 +764,7 @@ F 3 "" H 13300 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D63
+L arisutea-pcb:Device_D D63
 U 1 1 5C66EC84
 P 13500 4850
 F 0 "D63" V 13550 5050 50  0000 R CNN
@@ -779,7 +778,7 @@ $EndComp
 Wire Wire Line
 	13500 5000 13500 5050
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW64
+L arisutea-pcb:Switch_SW_Keeb SW64
 U 1 1 5C66EC8F
 P 13300 5750
 F 0 "SW64" H 13300 6035 50  0000 C CNN
@@ -790,7 +789,7 @@ F 3 "" H 13300 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D64
+L arisutea-pcb:Device_D D64
 U 1 1 5C66ECA5
 P 13500 5900
 F 0 "D64" V 13550 6100 50  0000 R CNN
@@ -1103,7 +1102,7 @@ Wire Wire Line
 Wire Wire Line
 	13500 8050 13500 8100
 $Comp
-L Device:D D66
+L arisutea-pcb:Device_D D66
 U 1 1 5C66ECB3
 P 13500 7900
 F 0 "D66" V 13550 8100 50  0000 R CNN
@@ -1115,7 +1114,7 @@ F 4 "C81598" H 13500 7900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D65
+L arisutea-pcb:Device_D D65
 U 1 1 5C66ECAC
 P 13500 6900
 F 0 "D65" V 13550 7100 50  0000 R CNN
@@ -1127,7 +1126,7 @@ F 4 "C81598" H 13500 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW66
+L arisutea-pcb:Switch_SW_Keeb SW66
 U 1 1 5C66EC9E
 P 13300 7750
 F 0 "SW66" H 13300 8035 50  0000 C CNN
@@ -1140,7 +1139,7 @@ $EndComp
 Wire Wire Line
 	13100 6750 13100 7750
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW65
+L arisutea-pcb:Switch_SW_Keeb SW65
 U 1 1 5C66EC96
 P 13300 6750
 F 0 "SW65" H 13300 7035 50  0000 C CNN
@@ -1155,7 +1154,7 @@ Wire Wire Line
 Wire Wire Line
 	12850 8050 12850 8100
 $Comp
-L Device:D D62
+L arisutea-pcb:Device_D D62
 U 1 1 5C66572B
 P 12850 7900
 F 0 "D62" V 12900 8100 50  0000 R CNN
@@ -1167,7 +1166,7 @@ F 4 "C81598" H 12850 7900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D61
+L arisutea-pcb:Device_D D61
 U 1 1 5C665724
 P 12850 6900
 F 0 "D61" V 12900 7100 50  0000 R CNN
@@ -1179,7 +1178,7 @@ F 4 "C81598" H 12850 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW62
+L arisutea-pcb:Switch_SW_Keeb SW62
 U 1 1 5C665716
 P 12650 7750
 F 0 "SW62" H 12650 8035 50  0000 C CNN
@@ -1192,7 +1191,7 @@ $EndComp
 Wire Wire Line
 	12450 6750 12450 7750
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW61
+L arisutea-pcb:Switch_SW_Keeb SW61
 U 1 1 5C66570E
 P 12650 6750
 F 0 "SW61" H 12650 7035 50  0000 C CNN
@@ -1205,7 +1204,7 @@ $EndComp
 Wire Wire Line
 	12200 8050 12200 8100
 $Comp
-L Device:D D58
+L arisutea-pcb:Device_D D58
 U 1 1 5C65D649
 P 12200 7900
 F 0 "D58" V 12250 8100 50  0000 R CNN
@@ -1217,7 +1216,7 @@ F 4 "C81598" H 12200 7900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW58
+L arisutea-pcb:Switch_SW_Keeb SW58
 U 1 1 5C65D634
 P 12000 7750
 F 0 "SW58" H 12000 8035 50  0000 C CNN
@@ -1232,7 +1231,7 @@ Wire Wire Line
 Wire Wire Line
 	11550 7050 11550 7100
 $Comp
-L Device:D D54
+L arisutea-pcb:Device_D D54
 U 1 1 5C656803
 P 11550 6900
 F 0 "D54" V 11600 7100 50  0000 R CNN
@@ -1244,7 +1243,7 @@ F 4 "C81598" H 11550 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW54
+L arisutea-pcb:Switch_SW_Keeb SW54
 U 1 1 5C6567ED
 P 11350 6750
 F 0 "SW54" H 11350 7035 50  0000 C CNN
@@ -1259,7 +1258,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 7050 10900 7100
 $Comp
-L Device:D D50
+L arisutea-pcb:Device_D D50
 U 1 1 5C650ADC
 P 10900 6900
 F 0 "D50" V 10950 7100 50  0000 R CNN
@@ -1271,7 +1270,7 @@ F 4 "C81598" H 10900 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW50
+L arisutea-pcb:Switch_SW_Keeb SW50
 U 1 1 5C650AC6
 P 10700 6750
 F 0 "SW50" H 10700 7035 50  0000 C CNN
@@ -1289,7 +1288,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 8050 10250 8100
 $Comp
-L Device:D D46
+L arisutea-pcb:Device_D D46
 U 1 1 5C64BD71
 P 10250 7900
 F 0 "D46" V 10300 8100 50  0000 R CNN
@@ -1301,7 +1300,7 @@ F 4 "C81598" H 10250 7900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D45
+L arisutea-pcb:Device_D D45
 U 1 1 5C64BD6A
 P 10250 6900
 F 0 "D45" V 10300 7100 50  0000 R CNN
@@ -1313,7 +1312,7 @@ F 4 "C81598" H 10250 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW46
+L arisutea-pcb:Switch_SW_Keeb SW46
 U 1 1 5C64BD5C
 P 10050 7750
 F 0 "SW46" H 10050 8035 50  0000 C CNN
@@ -1326,7 +1325,7 @@ $EndComp
 Wire Wire Line
 	9850 6750 9850 7750
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW45
+L arisutea-pcb:Switch_SW_Keeb SW45
 U 1 1 5C64BD54
 P 10050 6750
 F 0 "SW45" H 10050 7035 50  0000 C CNN
@@ -1341,7 +1340,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 7050 9600 7100
 $Comp
-L Device:D D41
+L arisutea-pcb:Device_D D41
 U 1 1 5C647E0E
 P 9600 6900
 F 0 "D41" V 9650 7100 50  0000 R CNN
@@ -1353,7 +1352,7 @@ F 4 "C81598" H 9600 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW41
+L arisutea-pcb:Switch_SW_Keeb SW41
 U 1 1 5C647DF8
 P 9400 6750
 F 0 "SW41" H 9400 7035 50  0000 C CNN
@@ -1371,7 +1370,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 8050 8950 8100
 $Comp
-L Device:D D37
+L arisutea-pcb:Device_D D37
 U 1 1 5C644BA8
 P 8950 7900
 F 0 "D37" V 9000 8100 50  0000 R CNN
@@ -1383,7 +1382,7 @@ F 4 "C81598" H 8950 7900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D36
+L arisutea-pcb:Device_D D36
 U 1 1 5C644BA1
 P 8950 6900
 F 0 "D36" V 9000 7100 50  0000 R CNN
@@ -1395,7 +1394,7 @@ F 4 "C81598" H 8950 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW37
+L arisutea-pcb:Switch_SW_Keeb SW37
 U 1 1 5C644B93
 P 8750 7750
 F 0 "SW37" H 8750 8035 50  0000 C CNN
@@ -1408,7 +1407,7 @@ $EndComp
 Wire Wire Line
 	8550 6750 8550 7750
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW36
+L arisutea-pcb:Switch_SW_Keeb SW36
 U 1 1 5C644B8B
 P 8750 6750
 F 0 "SW36" H 8750 7035 50  0000 C CNN
@@ -1423,7 +1422,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 7050 8300 7100
 $Comp
-L Device:D D32
+L arisutea-pcb:Device_D D32
 U 1 1 5C6424AC
 P 8300 6900
 F 0 "D32" V 8350 7100 50  0000 R CNN
@@ -1435,7 +1434,7 @@ F 4 "C81598" H 8300 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW32
+L arisutea-pcb:Switch_SW_Keeb SW32
 U 1 1 5C642496
 P 8100 6750
 F 0 "SW32" H 8100 7035 50  0000 C CNN
@@ -1453,7 +1452,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 8050 7650 8100
 $Comp
-L Device:D D28
+L arisutea-pcb:Device_D D28
 U 1 1 5C64062F
 P 7650 7900
 F 0 "D28" V 7700 8100 50  0000 R CNN
@@ -1465,7 +1464,7 @@ F 4 "C81598" H 7650 7900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D27
+L arisutea-pcb:Device_D D27
 U 1 1 5C640628
 P 7650 6900
 F 0 "D27" V 7700 7100 50  0000 R CNN
@@ -1477,7 +1476,7 @@ F 4 "C81598" H 7650 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW28
+L arisutea-pcb:Switch_SW_Keeb SW28
 U 1 1 5C64061A
 P 7450 7750
 F 0 "SW28" H 7450 8035 50  0000 C CNN
@@ -1490,7 +1489,7 @@ $EndComp
 Wire Wire Line
 	7250 6750 7250 7750
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW27
+L arisutea-pcb:Switch_SW_Keeb SW27
 U 1 1 5C640612
 P 7450 6750
 F 0 "SW27" H 7450 7035 50  0000 C CNN
@@ -1508,7 +1507,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 8050 7000 8100
 $Comp
-L Device:D D23
+L arisutea-pcb:Device_D D23
 U 1 1 5C63F14D
 P 7000 7900
 F 0 "D23" V 7050 8100 50  0000 R CNN
@@ -1520,7 +1519,7 @@ F 4 "C81598" H 7000 7900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D22
+L arisutea-pcb:Device_D D22
 U 1 1 5C63F146
 P 7000 6900
 F 0 "D22" V 7050 7100 50  0000 R CNN
@@ -1532,7 +1531,7 @@ F 4 "C81598" H 7000 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW23
+L arisutea-pcb:Switch_SW_Keeb SW23
 U 1 1 5C63F138
 P 6800 7750
 F 0 "SW23" H 6800 8035 50  0000 C CNN
@@ -1545,7 +1544,7 @@ $EndComp
 Wire Wire Line
 	6600 6750 6600 7750
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW22
+L arisutea-pcb:Switch_SW_Keeb SW22
 U 1 1 5C63F130
 P 6800 6750
 F 0 "SW22" H 6800 7035 50  0000 C CNN
@@ -1560,7 +1559,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 7050 6350 7100
 $Comp
-L Device:D D18
+L arisutea-pcb:Device_D D18
 U 1 1 5C63E38B
 P 6350 6900
 F 0 "D18" V 6400 7100 50  0000 R CNN
@@ -1572,7 +1571,7 @@ F 4 "C81598" H 6350 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW18
+L arisutea-pcb:Switch_SW_Keeb SW18
 U 1 1 5C63E375
 P 6150 6750
 F 0 "SW18" H 6150 7035 50  0000 C CNN
@@ -1590,7 +1589,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 8050 5700 8100
 $Comp
-L Device:D D14
+L arisutea-pcb:Device_D D14
 U 1 1 5C63DB37
 P 5700 7900
 F 0 "D14" V 5750 8100 50  0000 R CNN
@@ -1602,7 +1601,7 @@ F 4 "C81598" H 5700 7900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D13
+L arisutea-pcb:Device_D D13
 U 1 1 5C63DB30
 P 5700 6900
 F 0 "D13" V 5750 7100 50  0000 R CNN
@@ -1614,7 +1613,7 @@ F 4 "C81598" H 5700 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW14
+L arisutea-pcb:Switch_SW_Keeb SW14
 U 1 1 5C63DB22
 P 5500 7750
 F 0 "SW14" H 5500 8035 50  0000 C CNN
@@ -1627,7 +1626,7 @@ $EndComp
 Wire Wire Line
 	5300 6750 5300 7750
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW13
+L arisutea-pcb:Switch_SW_Keeb SW13
 U 1 1 5C63DB1A
 P 5500 6750
 F 0 "SW13" H 5500 7035 50  0000 C CNN
@@ -1643,7 +1642,7 @@ Connection ~ 3650 6750
 Wire Wire Line
 	5050 7050 5050 7100
 $Comp
-L Device:D D9
+L arisutea-pcb:Device_D D9
 U 1 1 5C523774
 P 5050 6900
 F 0 "D9" V 5100 7100 50  0000 R CNN
@@ -1655,7 +1654,7 @@ F 4 "C81598" H 5050 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW9
+L arisutea-pcb:Switch_SW_Keeb SW9
 U 1 1 5C5236A2
 P 4850 6750
 F 0 "SW9" H 4850 7035 50  0000 C CNN
@@ -1671,7 +1670,7 @@ Connection ~ 4050 8100
 Wire Wire Line
 	4050 8050 4050 8100
 $Comp
-L Device:D D5
+L arisutea-pcb:Device_D D5
 U 1 1 5C5210B4
 P 4050 7900
 F 0 "D5" V 4100 8100 50  0000 R CNN
@@ -1683,7 +1682,7 @@ F 4 "C81598" H 4050 7900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D4
+L arisutea-pcb:Device_D D4
 U 1 1 5C521072
 P 4050 6900
 F 0 "D4" V 4100 7100 50  0000 R CNN
@@ -1695,7 +1694,7 @@ F 4 "C81598" H 4050 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW5
+L arisutea-pcb:Switch_SW_Keeb SW5
 U 1 1 5C521001
 P 3850 7750
 F 0 "SW5" H 3850 8035 50  0000 C CNN
@@ -1708,7 +1707,7 @@ $EndComp
 Wire Wire Line
 	3650 6750 3650 7750
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW4
+L arisutea-pcb:Switch_SW_Keeb SW4
 U 1 1 5C520F5D
 P 3850 6750
 F 0 "SW4" H 3850 7035 50  0000 C CNN
@@ -1727,7 +1726,7 @@ row4
 Text HLabel 3400 7100 0    50   3State ~ 0
 row3
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW3
+L arisutea-pcb:Switch_SW_Keeb SW3
 U 1 1 5FB4B095
 P 3850 5750
 F 0 "SW3" H 3850 6035 50  0000 C CNN
@@ -1865,7 +1864,7 @@ Connection ~ 4650 3700
 Wire Wire Line
 	4650 3700 4650 4700
 $Comp
-L Device:D D59
+L arisutea-pcb:Device_D D59
 U 1 1 5C6656EE
 P 12850 3850
 F 0 "D59" V 12900 4050 50  0000 R CNN
@@ -1877,7 +1876,7 @@ F 4 "C81598" H 12850 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D55
+L arisutea-pcb:Device_D D55
 U 1 1 5C65D60C
 P 12200 3850
 F 0 "D55" V 12250 4050 50  0000 R CNN
@@ -1889,7 +1888,7 @@ F 4 "C81598" H 12200 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D51
+L arisutea-pcb:Device_D D51
 U 1 1 5C6567CD
 P 11550 3850
 F 0 "D51" V 11600 4050 50  0000 R CNN
@@ -1901,7 +1900,7 @@ F 4 "C81598" H 11550 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D47
+L arisutea-pcb:Device_D D47
 U 1 1 5C650AA6
 P 10900 3850
 F 0 "D47" V 10950 4050 50  0000 R CNN
@@ -1913,7 +1912,7 @@ F 4 "C81598" H 10900 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D42
+L arisutea-pcb:Device_D D42
 U 1 1 5C64BD34
 P 10250 3850
 F 0 "D42" V 10300 4050 50  0000 R CNN
@@ -1925,7 +1924,7 @@ F 4 "C81598" H 10250 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D38
+L arisutea-pcb:Device_D D38
 U 1 1 5C647DD8
 P 9600 3850
 F 0 "D38" V 9650 4050 50  0000 R CNN
@@ -1937,7 +1936,7 @@ F 4 "C81598" H 9600 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D33
+L arisutea-pcb:Device_D D33
 U 1 1 5C644B6B
 P 8950 3850
 F 0 "D33" V 9000 4050 50  0000 R CNN
@@ -1949,7 +1948,7 @@ F 4 "C81598" H 8950 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D29
+L arisutea-pcb:Device_D D29
 U 1 1 5C642476
 P 8300 3850
 F 0 "D29" V 8350 4050 50  0000 R CNN
@@ -1961,7 +1960,7 @@ F 4 "C81598" H 8300 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D24
+L arisutea-pcb:Device_D D24
 U 1 1 5C6405F2
 P 7650 3850
 F 0 "D24" V 7700 4050 50  0000 R CNN
@@ -1973,7 +1972,7 @@ F 4 "C81598" H 7650 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D19
+L arisutea-pcb:Device_D D19
 U 1 1 5C63F110
 P 7000 3850
 F 0 "D19" V 7050 4050 50  0000 R CNN
@@ -1985,7 +1984,7 @@ F 4 "C81598" H 7000 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D15
+L arisutea-pcb:Device_D D15
 U 1 1 5C63E355
 P 6350 3850
 F 0 "D15" V 6400 4050 50  0000 R CNN
@@ -1997,7 +1996,7 @@ F 4 "C81598" H 6350 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D10
+L arisutea-pcb:Device_D D10
 U 1 1 5C63DAFA
 P 5700 3850
 F 0 "D10" V 5750 4050 50  0000 R CNN
@@ -2009,7 +2008,7 @@ F 4 "C81598" H 5700 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D6
+L arisutea-pcb:Device_D D6
 U 1 1 5C52049A
 P 5050 3850
 F 0 "D6" V 5100 4050 50  0000 R CNN
@@ -2021,7 +2020,7 @@ F 4 "C81598" H 5050 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D1
+L arisutea-pcb:Device_D D1
 U 1 1 5C51FBF3
 P 4050 3850
 F 0 "D1" V 4100 4050 50  0000 R CNN
@@ -2033,7 +2032,7 @@ F 4 "C81598" H 4050 3850 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW6
+L arisutea-pcb:Switch_SW_Keeb SW6
 U 1 1 5C51FC52
 P 4850 3700
 F 0 "SW6" H 4850 3985 50  0000 C CNN
@@ -2046,7 +2045,7 @@ $EndComp
 Wire Wire Line
 	4650 2850 4650 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW10
+L arisutea-pcb:Switch_SW_Keeb SW10
 U 1 1 5C63DAF2
 P 5500 3700
 F 0 "SW10" H 5500 3985 50  0000 C CNN
@@ -2059,7 +2058,7 @@ $EndComp
 Wire Wire Line
 	5300 2850 5300 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW15
+L arisutea-pcb:Switch_SW_Keeb SW15
 U 1 1 5C63E34D
 P 6150 3700
 F 0 "SW15" H 6150 3985 50  0000 C CNN
@@ -2072,7 +2071,7 @@ $EndComp
 Wire Wire Line
 	5950 2850 5950 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW19
+L arisutea-pcb:Switch_SW_Keeb SW19
 U 1 1 5C63F108
 P 6800 3700
 F 0 "SW19" H 6800 3985 50  0000 C CNN
@@ -2085,7 +2084,7 @@ $EndComp
 Wire Wire Line
 	6600 2850 6600 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW24
+L arisutea-pcb:Switch_SW_Keeb SW24
 U 1 1 5C6405EA
 P 7450 3700
 F 0 "SW24" H 7450 3985 50  0000 C CNN
@@ -2098,7 +2097,7 @@ $EndComp
 Wire Wire Line
 	7250 2850 7250 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW29
+L arisutea-pcb:Switch_SW_Keeb SW29
 U 1 1 5C64246E
 P 8100 3700
 F 0 "SW29" H 8100 3985 50  0000 C CNN
@@ -2111,7 +2110,7 @@ $EndComp
 Wire Wire Line
 	7900 2850 7900 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW33
+L arisutea-pcb:Switch_SW_Keeb SW33
 U 1 1 5C644B63
 P 8750 3700
 F 0 "SW33" H 8750 3985 50  0000 C CNN
@@ -2124,7 +2123,7 @@ $EndComp
 Wire Wire Line
 	8550 2850 8550 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW38
+L arisutea-pcb:Switch_SW_Keeb SW38
 U 1 1 5C647DD0
 P 9400 3700
 F 0 "SW38" H 9400 3985 50  0000 C CNN
@@ -2137,7 +2136,7 @@ $EndComp
 Wire Wire Line
 	9200 2850 9200 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW42
+L arisutea-pcb:Switch_SW_Keeb SW42
 U 1 1 5C64BD2C
 P 10050 3700
 F 0 "SW42" H 10050 3985 50  0000 C CNN
@@ -2150,7 +2149,7 @@ $EndComp
 Wire Wire Line
 	9850 2850 9850 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW47
+L arisutea-pcb:Switch_SW_Keeb SW47
 U 1 1 5C650A9E
 P 10700 3700
 F 0 "SW47" H 10700 3985 50  0000 C CNN
@@ -2163,7 +2162,7 @@ $EndComp
 Wire Wire Line
 	10500 2850 10500 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW51
+L arisutea-pcb:Switch_SW_Keeb SW51
 U 1 1 5C6567C5
 P 11350 3700
 F 0 "SW51" H 11350 3985 50  0000 C CNN
@@ -2176,7 +2175,7 @@ $EndComp
 Wire Wire Line
 	11150 2850 11150 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW55
+L arisutea-pcb:Switch_SW_Keeb SW55
 U 1 1 5C65D604
 P 12000 3700
 F 0 "SW55" H 12000 3985 50  0000 C CNN
@@ -2189,7 +2188,7 @@ $EndComp
 Wire Wire Line
 	11800 2850 11800 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW59
+L arisutea-pcb:Switch_SW_Keeb SW59
 U 1 1 5F94250B
 P 12650 3700
 F 0 "SW59" H 12650 3985 50  0000 C CNN
@@ -2202,7 +2201,7 @@ $EndComp
 Wire Wire Line
 	12450 2850 12450 3700
 $Comp
-L arisutea-pcb-r1:Switch_SW_Keeb SW1
+L arisutea-pcb:Switch_SW_Keeb SW1
 U 1 1 5C51EE71
 P 3850 3700
 F 0 "SW1" H 3850 3985 50  0000 C CNN
