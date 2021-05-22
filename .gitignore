@@ -25,11 +25,7 @@ fp-info-cache
 *.xml
 *.csv
 
-# Dev files
-hardware/arisutea-case/angled/arisutea_lopro_case_P2_ponoko_one_piece_middles.eps
-hardware/arisutea-case/angled/arisutea_lopro_case_P2_ponoko_one_piece_middles.dxf
-hardware/arisutea-case/angled/arisutea_lopro_case_P2_ponoko_one_piece_middles.ai
+# Other Things
 dev/
 plot/
-graphics/arisutea_logo.dxf
-graphics/arisutea_logo.png
+arisutea-pcb-backups/
