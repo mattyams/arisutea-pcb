@@ -1,4 +1,10 @@
 # Arisutea - Arisu Keyboard PCB with More Modifications...now with MORE!
+
+### Arisutea Keyboard Variants
+- [STM32](https://github.com/mattyams/arisutea-pcb-stm32) - STM32F072 MCU, board is being tested.
+- [SK6812MiniE](https://github.com/mattyams/arisutea-pcb-rgb) - In Progress. PCB designed, just need to do some QC.
+- [Bluetooth](https://github.com/mattyams/arisutea-pcb-bt) - In Progress. Initial design for the PCB is ongoing, need to research more on the MCU and batteries.
+
 ## Disclaimer: Use these files at your own risk.
 アリステア PCB designed using KiCad. The layout was originally created by FateNozomi, inspired by Lyn's EM7 and TGR Alice with some modification. The layout was then modified by CorruptedJef and robotictomato to add USB-C, ESD and to shift/add some keys. This inspired me to modify the layout further by adding the ability to swap your switches out whenever you want and to make some keys a little more permenant. I have designed many boards in the past but never a keyboard so this is my first crack at it and I figured why not go all out? If you notice any issue please open an issue and we can discuss!
 
