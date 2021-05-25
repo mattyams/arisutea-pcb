@@ -1,7 +1,10 @@
 # Arisutea - Arisu Keyboard PCB with More Modifications...now with MORE!
+<p align="center">
+  <img width="230" height="150" src="https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/OSHW_mark_US002000.png">
+</p>
 
 ### Arisutea Keyboard Variants
-- [STM32](https://github.com/mattyams/arisutea-pcb-stm32) - STM32F072 MCU, board is being tested.
+- [STM32](https://github.com/mattyams/arisutea-pcb-stm32) - Prototypes Received. STM32F072 MCU, board is being tested.
 - [SK6812MiniE](https://github.com/mattyams/arisutea-pcb-rgb) - In Progress. PCB designed, just need to do some QC.
 - [Bluetooth](https://github.com/mattyams/arisutea-pcb-bt) - In Progress. Initial design for the PCB is ongoing, need to research more on the MCU and batteries.
 
