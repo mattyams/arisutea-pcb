@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:arisutea-pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -442,9 +443,9 @@ Text GLabel 2630 3570 1    50   Input ~ 0
 col14
 Text GLabel 2880 3570 1    50   Input ~ 0
 MOSI
-Text GLabel 2920 920  2    35   Input ~ 0
-USB+
 Text GLabel 2920 2280 2    35   Input ~ 0
+USB+
+Text GLabel 2920 920  2    35   Input ~ 0
 USB-
 Text GLabel 3030 3570 1    50   Input ~ 0
 SCLK
@@ -456,10 +457,6 @@ Text GLabel 3380 3570 1    50   Input ~ 0
 col8
 Text GLabel 3380 6920 3    50   Input ~ 0
 col13
-Text GLabel 3430 1100 2    50   Input ~ 0
-D-
-Text GLabel 3430 2100 2    50   Input ~ 0
-D+
 Text GLabel 3630 6920 3    50   Input ~ 0
 col12
 Text GLabel 3880 6920 3    50   Input ~ 0
@@ -512,9 +509,9 @@ Text GLabel 7565 4375 0    50   Input ~ 0
 RGB_5V
 Text GLabel 7565 4475 0    50   Input ~ 0
 RGB_A
-Text GLabel 8760 1500 0    50   Input ~ 0
-USB+
 Text GLabel 8760 1650 0    50   Input ~ 0
+USB+
+Text GLabel 8760 1500 0    50   Input ~ 0
 USB-
 Text GLabel 9110 3200 0    50   Input ~ 0
 row0
@@ -1105,22 +1102,22 @@ F 3 "~" H 9110 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J13
+L Connector_Generic:Conn_01x01 J14
 U 1 1 5C4E1CA1
 P 9110 1500
-F 0 "J13" H 9189 1542 50  0000 L CNN
-F 1 "D+" H 9205 1474 50  0000 L CNN
+F 0 "J14" H 9189 1542 50  0000 L CNN
+F 1 "D-" H 9205 1474 50  0000 L CNN
 F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 9110 1500 50  0001 C CNN
 F 3 "~" H 9110 1500 50  0001 C CNN
 	1    9110 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J14
+L Connector_Generic:Conn_01x01 J13
 U 1 1 5C4F0ABE
 P 9110 1650
-F 0 "J14" H 9189 1692 50  0000 L CNN
-F 1 "D-" H 9204 1625 50  0000 L CNN
+F 0 "J13" H 9189 1692 50  0000 L CNN
+F 1 "D+" H 9204 1625 50  0000 L CNN
 F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 9110 1650 50  0001 C CNN
 F 3 "~" H 9110 1650 50  0001 C CNN
 	1    9110 1650
@@ -1652,4 +1649,8 @@ Text Notes 9175 5925 2    100  Italic 20
 Logos
 Text Notes 10325 3075 0    100  Italic 20
 Mounting\nHoles
+Text GLabel 3430 2100 2    50   Input ~ 0
+D+
+Text GLabel 3430 1100 2    50   Input ~ 0
+D-
 $EndSCHEMATC
