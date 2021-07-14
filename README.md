@@ -77,8 +77,8 @@ Due to the nature of staggered keyboards, aligning using the number row resulted
 Disclaimer: Use these files at your own risk.
 
 ## Gerber Files
-Download the gerber and BOM files under [releases](https://github.com/mattyams/arisutea-pcb/releases).
+Download the gerber files under [releases](https://github.com/mattyams/arisutea-pcb/releases).
 
 ## PCB Assembly
 For the components required, you may refer to the bill of materials included along with the release as reference or load up the design file in KiCad.
-All the components can be soldered using a regular soldering iron, though soldering the USB-C receptacle might be the biggest hurdle. I have made an adjustment to the USB footprint to allow for a little more error when handsoldering. If needed, the BOM and POS file can be used on JLCPCB to assemble the PCB although I have not used their service I cannot confirm its accuracy or quality.
+All the components can be soldered using a regular soldering iron, though soldering the USB-C receptacle might be the biggest hurdle. I have made an adjustment to the USB footprint to allow for a little more error when handsoldering. POS files have been removed due to the overwhelming amount of compatibility issues of placement and selection. The BOM will remain for part numbers from LCSC and board placement.
